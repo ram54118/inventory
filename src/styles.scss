@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~@ng-select/ng-select/themes/default.theme.css";
+button:focus,
+input:focus{
+        box-shadow: none!important;
+    }
+
+
+    .progress{
+        height: 8px !important;
+    }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.cdk-overlay-container {
+    z-index: 9999;
+}
+
+input:focus,
+input:active{
+     outline:0 !important;
+    box-shadow: none !important;
+}
+button:focus{
+    outline:0 !important;
+    box-shadow: none !important;
+}
+.show-error-msg{
+    color: red;
+    height:auto;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+    ul{
+        list-style: disc;
+        margin: 0;
+    }
+}
+.service-error-msg{
+    color: red;
+    height:auto;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+.invalid {
+    border: 1px solid red!important;
+}
+.select-invalid {
+    border: 1px solid red!important;
+    border-radius: 4px
+}

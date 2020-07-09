@@ -1,0 +1,5519 @@
+{
+    "success": true,
+    "result": [
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17860,
+            "MASTER_CLIENT_NAME": "4 SC AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16252,
+            "MASTER_CLIENT_NAME": "A. Menarini Research & Business Service GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15410,
+            "MASTER_CLIENT_NAME": "AB2 Bio SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14342,
+            "MASTER_CLIENT_NAME": "AC Immune SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17238,
+            "MASTER_CLIENT_NAME": "ADC Therapeutics America, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18189,
+            "MASTER_CLIENT_NAME": "ADOCIA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17855,
+            "MASTER_CLIENT_NAME": "AET R&D GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17714,
+            "MASTER_CLIENT_NAME": "AGENCE NAT DE RECHERCHES SUR LE SIDA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14960,
+            "MASTER_CLIENT_NAME": "ALCOMEX S.A.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17085,
+            "MASTER_CLIENT_NAME": "ALEMBIC RESEARCH CENTER",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17986,
+            "MASTER_CLIENT_NAME": "ALMIRALL SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14609,
+            "MASTER_CLIENT_NAME": "AMBE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17169,
+            "MASTER_CLIENT_NAME": "AOP Orphan Pharmaceuticals Aktiengesellschaft",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16050,
+            "MASTER_CLIENT_NAME": "APEIRON Biologics AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17049,
+            "MASTER_CLIENT_NAME": "APT Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14024,
+            "MASTER_CLIENT_NAME": "ARDANA BIOSCIENCE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17943,
+            "MASTER_CLIENT_NAME": "ASLAN PHARMACEUTICALS PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16005,
+            "MASTER_CLIENT_NAME": "ASPREVA PHARMACEUTICALS SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15394,
+            "MASTER_CLIENT_NAME": "ASTELLAS PHARMA INC.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17164,
+            "MASTER_CLIENT_NAME": "ATLANT KLINIKAL, OOO",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17043,
+            "MASTER_CLIENT_NAME": "AXON Neuroscience CRM Services SE",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15686,
+            "MASTER_CLIENT_NAME": "Aadi, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17090,
+            "MASTER_CLIENT_NAME": "Abbvie Deutschland Gmbh & Co KG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15472,
+            "MASTER_CLIENT_NAME": "Abgenix",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14343,
+            "MASTER_CLIENT_NAME": "Ablynx NV",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14184,
+            "MASTER_CLIENT_NAME": "Abrika",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16821,
+            "MASTER_CLIENT_NAME": "Acceleron Pharma Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18041,
+            "MASTER_CLIENT_NAME": "Acculogix, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15141,
+            "MASTER_CLIENT_NAME": "Acea Biosciences, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15408,
+            "MASTER_CLIENT_NAME": "Acerta Pharma LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15684,
+            "MASTER_CLIENT_NAME": "Acerus Pharmaceuticals Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15683,
+            "MASTER_CLIENT_NAME": "Act Biotech, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18190,
+            "MASTER_CLIENT_NAME": "Actamax Surgical Materials LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17991,
+            "MASTER_CLIENT_NAME": "Actavis LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15407,
+            "MASTER_CLIENT_NAME": "Actelion Pharmaceuticals Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17857,
+            "MASTER_CLIENT_NAME": "Actinium Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15140,
+            "MASTER_CLIENT_NAME": "Acucela Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14341,
+            "MASTER_CLIENT_NAME": "Adamas Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17856,
+            "MASTER_CLIENT_NAME": "Adolor Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15682,
+            "MASTER_CLIENT_NAME": "Aduro Biotech Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14340,
+            "MASTER_CLIENT_NAME": "Advanced Life Sciences Holdings, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14614,
+            "MASTER_CLIENT_NAME": "Advanced Technologies and Rege",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18002,
+            "MASTER_CLIENT_NAME": "Agennix Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14180,
+            "MASTER_CLIENT_NAME": "Agensys Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17237,
+            "MASTER_CLIENT_NAME": "Agios Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16817,
+            "MASTER_CLIENT_NAME": "Aires Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15135,
+            "MASTER_CLIENT_NAME": "Ais Operating Co. Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15129,
+            "MASTER_CLIENT_NAME": "Akijen Bio Tech Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15137,
+            "MASTER_CLIENT_NAME": "Alba Therapeutics Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14179,
+            "MASTER_CLIENT_NAME": "Alcon Laboratories, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16255,
+            "MASTER_CLIENT_NAME": "Alder Biopharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16816,
+            "MASTER_CLIENT_NAME": "Alexion Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16056,
+            "MASTER_CLIENT_NAME": "Alexo Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15679,
+            "MASTER_CLIENT_NAME": "Alios Biopharma, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15136,
+            "MASTER_CLIENT_NAME": "Alkermes Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18000,
+            "MASTER_CLIENT_NAME": "Allakos Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16254,
+            "MASTER_CLIENT_NAME": "Allergan Sales LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16055,
+            "MASTER_CLIENT_NAME": "Allos Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17978,
+            "MASTER_CLIENT_NAME": "Alnylam Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14610,
+            "MASTER_CLIENT_NAME": "AlphaMab Co Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17985,
+            "MASTER_CLIENT_NAME": "Alza Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15677,
+            "MASTER_CLIENT_NAME": "Amag Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15134,
+            "MASTER_CLIENT_NAME": "Amaranth Medical, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14957,
+            "MASTER_CLIENT_NAME": "Amarin Pharma, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14335,
+            "MASTER_CLIENT_NAME": "Ambit Biosciences Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17082,
+            "MASTER_CLIENT_NAME": "American College of Radiology",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17716,
+            "MASTER_CLIENT_NAME": "Amgen Biopharmaceutical R&D (Shanghai) Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17976,
+            "MASTER_CLIENT_NAME": "Amgen Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15676,
+            "MASTER_CLIENT_NAME": "Amid Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14028,
+            "MASTER_CLIENT_NAME": "Ampel Biosolutions",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16754,
+            "MASTER_CLIENT_NAME": "Amzell B.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17051,
+            "MASTER_CLIENT_NAME": "AnGes MG, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15675,
+            "MASTER_CLIENT_NAME": "Anaptysbio, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14333,
+            "MASTER_CLIENT_NAME": "AnewPharma",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16261,
+            "MASTER_CLIENT_NAME": "Ani Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14026,
+            "MASTER_CLIENT_NAME": "Anthera Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17050,
+            "MASTER_CLIENT_NAME": "Aobiome LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16752,
+            "MASTER_CLIENT_NAME": "Apellis Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15674,
+            "MASTER_CLIENT_NAME": "Aponia Laboratories",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15398,
+            "MASTER_CLIENT_NAME": "Apotex Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14025,
+            "MASTER_CLIENT_NAME": "Aprogen Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17748,
+            "MASTER_CLIENT_NAME": "Aravas Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17980,
+            "MASTER_CLIENT_NAME": "Arbor Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14604,
+            "MASTER_CLIENT_NAME": "Arca Biopharma, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17712,
+            "MASTER_CLIENT_NAME": "Arcagy-gineco",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14953,
+            "MASTER_CLIENT_NAME": "Archemix Corp.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14330,
+            "MASTER_CLIENT_NAME": "Archimedes Pharma UK Limited",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17330,
+            "MASTER_CLIENT_NAME": "Ard Mallinckrodt Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17992,
+            "MASTER_CLIENT_NAME": "Ardea Biosciences, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17048,
+            "MASTER_CLIENT_NAME": "Ares Trading SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15396,
+            "MASTER_CLIENT_NAME": "Ariad Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17711,
+            "MASTER_CLIENT_NAME": "Aridis Pharmaceuticals LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15673,
+            "MASTER_CLIENT_NAME": "Ariston Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15128,
+            "MASTER_CLIENT_NAME": "Ark Therapeutics Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14329,
+            "MASTER_CLIENT_NAME": "Arog Pharmaceuticals LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17944,
+            "MASTER_CLIENT_NAME": "Arqule, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17047,
+            "MASTER_CLIENT_NAME": "Array Biopharma Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16006,
+            "MASTER_CLIENT_NAME": "Arsanis Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17806,
+            "MASTER_CLIENT_NAME": "Artemis International Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18054,
+            "MASTER_CLIENT_NAME": "Arthrolab Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15672,
+            "MASTER_CLIENT_NAME": "Asahi Kasei Pharma America Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15395,
+            "MASTER_CLIENT_NAME": "Asaman Incorporated",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15127,
+            "MASTER_CLIENT_NAME": "Asan Medical Center",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14602,
+            "MASTER_CLIENT_NAME": "Ascendis Pharma A/S",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14328,
+            "MASTER_CLIENT_NAME": "Asit Biotech SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14601,
+            "MASTER_CLIENT_NAME": "Astellas Pharma Us, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14327,
+            "MASTER_CLIENT_NAME": "Astellas Pharma Europe B.v.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14022,
+            "MASTER_CLIENT_NAME": "AstraZeneca Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16052,
+            "MASTER_CLIENT_NAME": "Astrazeneca Pharmaceuticals LP",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17924,
+            "MASTER_CLIENT_NAME": "Attenuon LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15670,
+            "MASTER_CLIENT_NAME": "Aurinia Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18051,
+            "MASTER_CLIENT_NAME": "Aventis Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16071,
+            "MASTER_CLIENT_NAME": "Aveo Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15392,
+            "MASTER_CLIENT_NAME": "Avid Radiopharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16339,
+            "MASTER_CLIENT_NAME": "BAHER NORTON",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14597,
+            "MASTER_CLIENT_NAME": "BEAUFOUR IPSEN INDUSTRIE",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17159,
+            "MASTER_CLIENT_NAME": "BIND Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17039,
+            "MASTER_CLIENT_NAME": "BIOCND Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18046,
+            "MASTER_CLIENT_NAME": "BIOCON RESEARCH LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15917,
+            "MASTER_CLIENT_NAME": "BIOLINE RX Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16066,
+            "MASTER_CLIENT_NAME": "BIOLOGIE SERVIER",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17932,
+            "MASTER_CLIENT_NAME": "BMS Research and Development IST",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15892,
+            "MASTER_CLIENT_NAME": "BTG INTERNATIONAL LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15560,
+            "MASTER_CLIENT_NAME": "Baim Institute For Clinical Research, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17922,
+            "MASTER_CLIENT_NAME": "Balance Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15668,
+            "MASTER_CLIENT_NAME": "Banner Pharmacaps Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14258,
+            "MASTER_CLIENT_NAME": "Basilea Pharmaceutica AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17042,
+            "MASTER_CLIENT_NAME": "Bausch & Lomb Incorporated",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17161,
+            "MASTER_CLIENT_NAME": "Baxalta Incorporated",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16069,
+            "MASTER_CLIENT_NAME": "Baxter Healthcare Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17801,
+            "MASTER_CLIENT_NAME": "Bayer Schering Pharma AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15667,
+            "MASTER_CLIENT_NAME": "Bcf Solutions, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17041,
+            "MASTER_CLIENT_NAME": "Beigene, Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17160,
+            "MASTER_CLIENT_NAME": "Beijing Mabworks Biotechnology Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16068,
+            "MASTER_CLIENT_NAME": "Beijing Peking University WBL  Biotech Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18048,
+            "MASTER_CLIENT_NAME": "Belcher Pharmaceuticals, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14256,
+            "MASTER_CLIENT_NAME": "Beta Pharmaceuticals Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17937,
+            "MASTER_CLIENT_NAME": "Bial - Portela And C Sa",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17040,
+            "MASTER_CLIENT_NAME": "Bilcare Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15333,
+            "MASTER_CLIENT_NAME": "Bio-Thera Solutions, Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16091,
+            "MASTER_CLIENT_NAME": "Bioanalytical Systems Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14942,
+            "MASTER_CLIENT_NAME": "Biocryst Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18044,
+            "MASTER_CLIENT_NAME": "Biomedical Systems Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17760,
+            "MASTER_CLIENT_NAME": "Biopharmx, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17935,
+            "MASTER_CLIENT_NAME": "Biorasi, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17995,
+            "MASTER_CLIENT_NAME": "Biothera Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14593,
+            "MASTER_CLIENT_NAME": "Biovail Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14530,
+            "MASTER_CLIENT_NAME": "Blaze Bioscience, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17933,
+            "MASTER_CLIENT_NAME": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16089,
+            "MASTER_CLIENT_NAME": "Bone Support AB",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14840,
+            "MASTER_CLIENT_NAME": "Boston Life Sciences, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17758,
+            "MASTER_CLIENT_NAME": "Boston Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15995,
+            "MASTER_CLIENT_NAME": "Boston Scientific Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17764,
+            "MASTER_CLIENT_NAME": "Boston Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15332,
+            "MASTER_CLIENT_NAME": "BrainCells Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16259,
+            "MASTER_CLIENT_NAME": "Bristol-Myers Squibb",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15867,
+            "MASTER_CLIENT_NAME": "Burnet Institute",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15082,
+            "MASTER_CLIENT_NAME": "C&R Research Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15116,
+            "MASTER_CLIENT_NAME": "CADILA HEALTHCARE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15330,
+            "MASTER_CLIENT_NAME": "CANCER RESEARCH UK",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17625,
+            "MASTER_CLIENT_NAME": "CANCER TRIALS IRELAND COMPANY LIMITED BY GUARANTEE",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15889,
+            "MASTER_CLIENT_NAME": "CCDRD Cooperative Clinical Drug Research and Devel",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17828,
+            "MASTER_CLIENT_NAME": "CE CENTRE EUGENE MARQUIS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16084,
+            "MASTER_CLIENT_NAME": "CELLTRION HEALTHCARE SINGAPORE PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16802,
+            "MASTER_CLIENT_NAME": "CENTRE HOSPITALIER UNIVERSITAIRE DE BORDEAUX",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15594,
+            "MASTER_CLIENT_NAME": "CHILTERN INTERNATIONAL SARL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15324,
+            "MASTER_CLIENT_NAME": "CHUGAI PHARMACEUTICAL CO. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15884,
+            "MASTER_CLIENT_NAME": "CIPLA LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15592,
+            "MASTER_CLIENT_NAME": "CIRCASSIA PHARMACEUTICALS PLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14788,
+            "MASTER_CLIENT_NAME": "CJ HealthCare Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15857,
+            "MASTER_CLIENT_NAME": "CLIANTHA RESEARCH LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14787,
+            "MASTER_CLIENT_NAME": "CLIENT-PHARMA LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17867,
+            "MASTER_CLIENT_NAME": "CLINACTIS PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15858,
+            "MASTER_CLIENT_NAME": "CLINDATA Clinical Data Management GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14786,
+            "MASTER_CLIENT_NAME": "CMED TECHNOLOGY LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14519,
+            "MASTER_CLIENT_NAME": "CMG Pharmaceutical Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16628,
+            "MASTER_CLIENT_NAME": "CMIC ASIA-PACIFIC, PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17822,
+            "MASTER_CLIENT_NAME": "CMIC HOLDINGS CO., LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15853,
+            "MASTER_CLIENT_NAME": "COVANCE (ASIA) PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15903,
+            "MASTER_CLIENT_NAME": "CROMSOURCE ADM SRL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16427,
+            "MASTER_CLIENT_NAME": "CROfessionals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17807,
+            "MASTER_CLIENT_NAME": "CRPMC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14515,
+            "MASTER_CLIENT_NAME": "CSL Behring GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15901,
+            "MASTER_CLIENT_NAME": "CYCLACEL LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15115,
+            "MASTER_CLIENT_NAME": "Canbridge Life Sciences Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14795,
+            "MASTER_CLIENT_NAME": "Cancer International Research Group",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17851,
+            "MASTER_CLIENT_NAME": "Cancer Trials Ireland",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15329,
+            "MASTER_CLIENT_NAME": "Cardeas Pharma Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16018,
+            "MASTER_CLIENT_NAME": "CardioVascular BioTherapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14794,
+            "MASTER_CLIENT_NAME": "Carnrick Laboratories Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14781,
+            "MASTER_CLIENT_NAME": "Casa Rosso ApS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16201,
+            "MASTER_CLIENT_NAME": "Casi Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16760,
+            "MASTER_CLIENT_NAME": "Catalyst Biosciences, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16085,
+            "MASTER_CLIENT_NAME": "Cato Holding Company",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15888,
+            "MASTER_CLIENT_NAME": "Celgene Brasil Biofarmaceutica Ltda",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15327,
+            "MASTER_CLIENT_NAME": "Celgene Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14793,
+            "MASTER_CLIENT_NAME": "Celgene International Sàrl",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15113,
+            "MASTER_CLIENT_NAME": "Celimmune",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17815,
+            "MASTER_CLIENT_NAME": "Cell Medica Switzerland AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15863,
+            "MASTER_CLIENT_NAME": "CellGate Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17829,
+            "MASTER_CLIENT_NAME": "Celldex Therapeutics",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15864,
+            "MASTER_CLIENT_NAME": "Celtaxsys Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15112,
+            "MASTER_CLIENT_NAME": "Cempra Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15862,
+            "MASTER_CLIENT_NAME": "Centocor Research And Development Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15326,
+            "MASTER_CLIENT_NAME": "Ception Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17827,
+            "MASTER_CLIENT_NAME": "Cerexa, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16198,
+            "MASTER_CLIENT_NAME": "Cerimon Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16014,
+            "MASTER_CLIENT_NAME": "Charleston Laboratories, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17846,
+            "MASTER_CLIENT_NAME": "Checkmate Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16731,
+            "MASTER_CLIENT_NAME": "Chelsea",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17720,
+            "MASTER_CLIENT_NAME": "Chelsea Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15325,
+            "MASTER_CLIENT_NAME": "Chiasma, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15110,
+            "MASTER_CLIENT_NAME": "Chiesi Farmaceutici SPA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17826,
+            "MASTER_CLIENT_NAME": "Children's National Medical Center",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14167,
+            "MASTER_CLIENT_NAME": "Chiltern USA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15252,
+            "MASTER_CLIENT_NAME": "China Novartis Institutes for BioMedical Research ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16081,
+            "MASTER_CLIENT_NAME": "Chong Kun Dang Pharmaceutical Corp.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16013,
+            "MASTER_CLIENT_NAME": "Chromocell Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15593,
+            "MASTER_CLIENT_NAME": "Chugai Pharma USA Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14166,
+            "MASTER_CLIENT_NAME": "Cilag AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15859,
+            "MASTER_CLIENT_NAME": "Cirquest Labs, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15108,
+            "MASTER_CLIENT_NAME": "Civitas Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14165,
+            "MASTER_CLIENT_NAME": "Clay-park Labs Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16195,
+            "MASTER_CLIENT_NAME": "Clementia Pharmaceutiques Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15883,
+            "MASTER_CLIENT_NAME": "Clinical Ancillary Management GPMS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15882,
+            "MASTER_CLIENT_NAME": "Clinical Development Group LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17599,
+            "MASTER_CLIENT_NAME": "Clinical Research Management, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16194,
+            "MASTER_CLIENT_NAME": "Clinlogix, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17607,
+            "MASTER_CLIENT_NAME": "Clintrak Clinical Labeling Services, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17487,
+            "MASTER_CLIENT_NAME": "Complete Pharma Holdings, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15086,
+            "MASTER_CLIENT_NAME": "Cook Pharmica LLC ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17775,
+            "MASTER_CLIENT_NAME": "Cordis Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16626,
+            "MASTER_CLIENT_NAME": "Cortex Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17820,
+            "MASTER_CLIENT_NAME": "Corvia Medical, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14162,
+            "MASTER_CLIENT_NAME": "Corvidia Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17603,
+            "MASTER_CLIENT_NAME": "Covance Central Laboratory Services Sàrl",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17548,
+            "MASTER_CLIENT_NAME": "Covance Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14161,
+            "MASTER_CLIENT_NAME": "Covx Pharmaceuticals, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16031,
+            "MASTER_CLIENT_NAME": "Cromsource",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15852,
+            "MASTER_CLIENT_NAME": "Crucell N.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17818,
+            "MASTER_CLIENT_NAME": "Ctd Holdings, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16030,
+            "MASTER_CLIENT_NAME": "Ctryx Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17600,
+            "MASTER_CLIENT_NAME": "Cumberland Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15851,
+            "MASTER_CLIENT_NAME": "Curatek Pharmaceuticals Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15102,
+            "MASTER_CLIENT_NAME": "Curegenix Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15316,
+            "MASTER_CLIENT_NAME": "Curis, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15584,
+            "MASTER_CLIENT_NAME": "Curx Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16158,
+            "MASTER_CLIENT_NAME": "Customer01",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17416,
+            "MASTER_CLIENT_NAME": "Cymabay Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14158,
+            "MASTER_CLIENT_NAME": "Cytomx Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15900,
+            "MASTER_CLIENT_NAME": "DAIICHI SANKYO UK LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14157,
+            "MASTER_CLIENT_NAME": "DAMIAN PHARMA AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16620,
+            "MASTER_CLIENT_NAME": "DANONE RESEARCH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17814,
+            "MASTER_CLIENT_NAME": "DHM",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15097,
+            "MASTER_CLIENT_NAME": "DNDi",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15310,
+            "MASTER_CLIENT_NAME": "DSM Nutritional Products AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15096,
+            "MASTER_CLIENT_NAME": "DSM Sinochem Pharmaceuticals Netherlands B.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17771,
+            "MASTER_CLIENT_NAME": "Daewoong Pharmaceutical Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16028,
+            "MASTER_CLIENT_NAME": "Daiichi Sankyo Europe GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15100,
+            "MASTER_CLIENT_NAME": "Daiichi Sankyo Pharma Development",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16621,
+            "MASTER_CLIENT_NAME": "Dainippon Pharmaceutical USA Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14779,
+            "MASTER_CLIENT_NAME": "Dainippon Sumitomo Pharma Co Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15899,
+            "MASTER_CLIENT_NAME": "Dance Biopharm Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17668,
+            "MASTER_CLIENT_NAME": "Dart Neuroscience LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15581,
+            "MASTER_CLIENT_NAME": "Debiopharm International SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15313,
+            "MASTER_CLIENT_NAME": "Deciphera Pharmaceuticals, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17769,
+            "MASTER_CLIENT_NAME": "Deltanoid Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15898,
+            "MASTER_CLIENT_NAME": "Dendreon Pharmaceuticals, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16027,
+            "MASTER_CLIENT_NAME": "Denovo Biopharma LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16363,
+            "MASTER_CLIENT_NAME": "Depomed, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15098,
+            "MASTER_CLIENT_NAME": "Develco Pharma Schweiz AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14777,
+            "MASTER_CLIENT_NAME": "Dey, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17768,
+            "MASTER_CLIENT_NAME": "Diagnoplex SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17666,
+            "MASTER_CLIENT_NAME": "Discgenics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17542,
+            "MASTER_CLIENT_NAME": "Dispersol Technologies, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15846,
+            "MASTER_CLIENT_NAME": "Disphar International B.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15579,
+            "MASTER_CLIENT_NAME": "Diurnal Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15312,
+            "MASTER_CLIENT_NAME": "Dnatrix, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15578,
+            "MASTER_CLIENT_NAME": "Do not use",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16617,
+            "MASTER_CLIENT_NAME": "Dong-A Socio Holdings Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17665,
+            "MASTER_CLIENT_NAME": "Dr. Reddy's Laboratories, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15845,
+            "MASTER_CLIENT_NAME": "Drugscan, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17781,
+            "MASTER_CLIENT_NAME": "Dupont Merck",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15895,
+            "MASTER_CLIENT_NAME": "Duramed Research Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16360,
+            "MASTER_CLIENT_NAME": "Dyax Corp.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17410,
+            "MASTER_CLIENT_NAME": "Dynavax Technologies Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17664,
+            "MASTER_CLIENT_NAME": "Dynogen Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17349,
+            "MASTER_CLIENT_NAME": "E-pharm Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15309,
+            "MASTER_CLIENT_NAME": "ECI, K.K.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15308,
+            "MASTER_CLIENT_NAME": "EIRGENIX, INC.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17358,
+            "MASTER_CLIENT_NAME": "ELI LILLY JAPAN K.K.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16047,
+            "MASTER_CLIENT_NAME": "ENTEROME",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14770,
+            "MASTER_CLIENT_NAME": "EPS HOLDINGS, INC.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14503,
+            "MASTER_CLIENT_NAME": "EPS International (China) Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15980,
+            "MASTER_CLIENT_NAME": "ESBATech, a Novartis company GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15844,
+            "MASTER_CLIENT_NAME": "Eastern Cooperative Oncology Group",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15095,
+            "MASTER_CLIENT_NAME": "Eclisse Srl",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14153,
+            "MASTER_CLIENT_NAME": "Eddingpharm (China) Co Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17734,
+            "MASTER_CLIENT_NAME": "Edge Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15575,
+            "MASTER_CLIENT_NAME": "Eiger Biopharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14773,
+            "MASTER_CLIENT_NAME": "Eisai Co Ltd (RTP)",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14152,
+            "MASTER_CLIENT_NAME": "Eisai Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15808,
+            "MASTER_CLIENT_NAME": "Eli Lilly European Clinical Trial Services SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17962,
+            "MASTER_CLIENT_NAME": "Eli Lilly SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15574,
+            "MASTER_CLIENT_NAME": "Eli Lilly and Company",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15842,
+            "MASTER_CLIENT_NAME": "Eli Lilly do Brasil Ltda",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17351,
+            "MASTER_CLIENT_NAME": "Elixir Pharmaceuticals, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14504,
+            "MASTER_CLIENT_NAME": "Endo Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14272,
+            "MASTER_CLIENT_NAME": "Engelhard Arzneimittel GmbH & Co KG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15957,
+            "MASTER_CLIENT_NAME": "Enzon Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15091,
+            "MASTER_CLIENT_NAME": "Epix Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16355,
+            "MASTER_CLIENT_NAME": "Esperion Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17355,
+            "MASTER_CLIENT_NAME": "Essential Group, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15840,
+            "MASTER_CLIENT_NAME": "Etab Health",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15571,
+            "MASTER_CLIENT_NAME": "Ethicon Endo-Surgery, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14270,
+            "MASTER_CLIENT_NAME": "Eupraxia Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14023,
+            "MASTER_CLIENT_NAME": "Evolva Holding SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14501,
+            "MASTER_CLIENT_NAME": "Exelixis, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14269,
+            "MASTER_CLIENT_NAME": "Exicure, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17683,
+            "MASTER_CLIENT_NAME": "EyeTech Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16129,
+            "MASTER_CLIENT_NAME": "F. Hoffmann-La Roche AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16491,
+            "MASTER_CLIENT_NAME": "FAMY CARE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14482,
+            "MASTER_CLIENT_NAME": "FCSBJ EBR & PASS IMPLEMENTATION",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15568,
+            "MASTER_CLIENT_NAME": "FISHER BIOPHARMA SERVICES (INDIA) PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16042,
+            "MASTER_CLIENT_NAME": "FO.NE.SA.FONDAZIONE NEOPLASIE SANGUE ONLUS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16041,
+            "MASTER_CLIENT_NAME": "FRESENIUS KABI ONCOLOGY LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17658,
+            "MASTER_CLIENT_NAME": "Faron Pharmaceuticals Oy",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15953,
+            "MASTER_CLIENT_NAME": "Ferring Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17478,
+            "MASTER_CLIENT_NAME": "Fibrocell Technologies, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18110,
+            "MASTER_CLIENT_NAME": "Fibrogen, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17345,
+            "MASTER_CLIENT_NAME": "Finox AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15612,
+            "MASTER_CLIENT_NAME": "Fisher Allentown",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15032,
+            "MASTER_CLIENT_NAME": "Fisher Clinical Services GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15569,
+            "MASTER_CLIENT_NAME": "Fisher Clinical Services Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14545,
+            "MASTER_CLIENT_NAME": "Fisher Scientific",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14520,
+            "MASTER_CLIENT_NAME": "Fisher Bioservices ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17727,
+            "MASTER_CLIENT_NAME": "Fluoro2 Therapeutics",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15567,
+            "MASTER_CLIENT_NAME": "Forest Laboratories, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15351,
+            "MASTER_CLIENT_NAME": "Forest Research Institute Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18109,
+            "MASTER_CLIENT_NAME": "Forsight Vision5, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17344,
+            "MASTER_CLIENT_NAME": "Forty Seven, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15976,
+            "MASTER_CLIENT_NAME": "Forward Pharma GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16253,
+            "MASTER_CLIENT_NAME": "Fougera Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14766,
+            "MASTER_CLIENT_NAME": "Fountain Medical (TIANJIN) Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15951,
+            "MASTER_CLIENT_NAME": "Fresenius Kabi (Wuhan) Pharmaceutical Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18262,
+            "MASTER_CLIENT_NAME": "Fresenius Kabi Austria GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17476,
+            "MASTER_CLIENT_NAME": "Fresenius Kabi Deutschland GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16127,
+            "MASTER_CLIENT_NAME": "Fresenius SE & Co. KGaA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16040,
+            "MASTER_CLIENT_NAME": "G1 Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14264,
+            "MASTER_CLIENT_NAME": "GE Healthcare AS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16039,
+            "MASTER_CLIENT_NAME": "GEMABIOTECH S.A.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14232,
+            "MASTER_CLIENT_NAME": "GENERIC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15656,
+            "MASTER_CLIENT_NAME": "GEORGE INSTITUTE PTY LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16036,
+            "MASTER_CLIENT_NAME": "GLYCONEX INC.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18104,
+            "MASTER_CLIENT_NAME": "GPM Test Client",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17674,
+            "MASTER_CLIENT_NAME": "GTF-Gesellschaft fur Therapeutische",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17282,
+            "MASTER_CLIENT_NAME": "GUERBET",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15830,
+            "MASTER_CLIENT_NAME": "GW Pharma Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15835,
+            "MASTER_CLIENT_NAME": "Galderma Laboratories, L.P.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14113,
+            "MASTER_CLIENT_NAME": "Gavis Pharmaceuticals, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14495,
+            "MASTER_CLIENT_NAME": "Gedeon Richter Plc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15911,
+            "MASTER_CLIENT_NAME": "Genentech, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17723,
+            "MASTER_CLIENT_NAME": "Genexine, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16125,
+            "MASTER_CLIENT_NAME": "Genpharm Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15564,
+            "MASTER_CLIENT_NAME": "Genzyme Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17676,
+            "MASTER_CLIENT_NAME": "Gilead Sciences Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16123,
+            "MASTER_CLIENT_NAME": "GlaxoSmithKline PLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17399,
+            "MASTER_CLIENT_NAME": "Glaxosmithkline LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18258,
+            "MASTER_CLIENT_NAME": "Glenmark Generics Limited",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17424,
+            "MASTER_CLIENT_NAME": "Glenmark Pharmaceuticals Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18105,
+            "MASTER_CLIENT_NAME": "Glenmark Specialty SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15832,
+            "MASTER_CLIENT_NAME": "GliaMed Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14390,
+            "MASTER_CLIENT_NAME": "Globeimmune, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18039,
+            "MASTER_CLIENT_NAME": "Graceway Pharmaceuticals LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15831,
+            "MASTER_CLIENT_NAME": "Graybug Vision, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15562,
+            "MASTER_CLIENT_NAME": "Green Cross Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15024,
+            "MASTER_CLIENT_NAME": "Green Sky Labs Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15994,
+            "MASTER_CLIENT_NAME": "Gtree BNT",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17686,
+            "MASTER_CLIENT_NAME": "H.E.I.G.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15992,
+            "MASTER_CLIENT_NAME": "HELM AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16506,
+            "MASTER_CLIENT_NAME": "HLL LIFECARE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17626,
+            "MASTER_CLIENT_NAME": "HRB Clinical Research Facility",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15344,
+            "MASTER_CLIENT_NAME": "Haemalogix Pty Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14759,
+            "MASTER_CLIENT_NAME": "Halozyme Therapeutics",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17687,
+            "MASTER_CLIENT_NAME": "Hamilton Health Sciences Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17562,
+            "MASTER_CLIENT_NAME": "Hammersmith Special Health Authority",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14387,
+            "MASTER_CLIENT_NAME": "Health Decisions, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17281,
+            "MASTER_CLIENT_NAME": "Helix BioPharma Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15945,
+            "MASTER_CLIENT_NAME": "Helomics Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15559,
+            "MASTER_CLIENT_NAME": "Heron Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15991,
+            "MASTER_CLIENT_NAME": "Hiv Vaccine Trials Network",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15341,
+            "MASTER_CLIENT_NAME": "Horizon Pharma Ireland Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15020,
+            "MASTER_CLIENT_NAME": "Hospira, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14756,
+            "MASTER_CLIENT_NAME": "Hovon Foundation ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14385,
+            "MASTER_CLIENT_NAME": "Hrb-crci ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14473,
+            "MASTER_CLIENT_NAME": "Hughes Trueman Reinhold",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18099,
+            "MASTER_CLIENT_NAME": "Hyperion Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15340,
+            "MASTER_CLIENT_NAME": "IBCSG CH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15969,
+            "MASTER_CLIENT_NAME": "ICON PUBLIC LIMITED COMPANY",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16383,
+            "MASTER_CLIENT_NAME": "IDAC THERANOSTICS, INC.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15018,
+            "MASTER_CLIENT_NAME": "IDIBELL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17624,
+            "MASTER_CLIENT_NAME": "IELSG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15824,
+            "MASTER_CLIENT_NAME": "ILKOGEN ILAC SANAYI VE TICARET ANONIM SIRKETI",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17623,
+            "MASTER_CLIENT_NAME": "IMBE GR",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17899,
+            "MASTER_CLIENT_NAME": "IMMUNE SYSTEM KEY LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18184,
+            "MASTER_CLIENT_NAME": "IMMUNOCORE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15823,
+            "MASTER_CLIENT_NAME": "IMMUNOVATIVE THERAPIES LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18183,
+            "MASTER_CLIENT_NAME": "INKORP, AO",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16433,
+            "MASTER_CLIENT_NAME": "INTAS PHARMACEUTICALS LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18027,
+            "MASTER_CLIENT_NAME": "INTEX Pharmazeutica AG in Liquidation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15011,
+            "MASTER_CLIENT_NAME": "INVentive Health Clinical ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14954,
+            "MASTER_CLIENT_NAME": "ISARNA Holding GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15485,
+            "MASTER_CLIENT_NAME": "ISTITUTI FISIOTERAPICI OSPITALIERI",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16331,
+            "MASTER_CLIENT_NAME": "IVAX US",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15548,
+            "MASTER_CLIENT_NAME": "IZUN PHARMA LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15339,
+            "MASTER_CLIENT_NAME": "Idenix Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15968,
+            "MASTER_CLIENT_NAME": "IgNova GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15988,
+            "MASTER_CLIENT_NAME": "Igenica, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16439,
+            "MASTER_CLIENT_NAME": "Ignyta, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14753,
+            "MASTER_CLIENT_NAME": "Ilyang Pharmaceutical Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14485,
+            "MASTER_CLIENT_NAME": "Imago Biosciences, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14381,
+            "MASTER_CLIENT_NAME": "Immtech Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15337,
+            "MASTER_CLIENT_NAME": "Immune Design Corp.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14484,
+            "MASTER_CLIENT_NAME": "Immunocellular Therapeutics, Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15986,
+            "MASTER_CLIENT_NAME": "Impax Laboratories, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14640,
+            "MASTER_CLIENT_NAME": "InVentiv Health Clinical",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15463,
+            "MASTER_CLIENT_NAME": "InVentiv Health Clinique Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15822,
+            "MASTER_CLIENT_NAME": "Inclin, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14534,
+            "MASTER_CLIENT_NAME": "Indipharm India Pvt Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15965,
+            "MASTER_CLIENT_NAME": "Infectious Disease Research Institute",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16436,
+            "MASTER_CLIENT_NAME": "Infinity Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18029,
+            "MASTER_CLIENT_NAME": "Inno Therapy Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16200,
+            "MASTER_CLIENT_NAME": "Innovation Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14643,
+            "MASTER_CLIENT_NAME": "Innovent Biologics (Suzhou) Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17560,
+            "MASTER_CLIENT_NAME": "Inovio Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18181,
+            "MASTER_CLIENT_NAME": "Institute Of Cancer Research",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14749,
+            "MASTER_CLIENT_NAME": "Insys Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15983,
+            "MASTER_CLIENT_NAME": "Intarcia Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15962,
+            "MASTER_CLIENT_NAME": "Intec Pharma",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15549,
+            "MASTER_CLIENT_NAME": "Integrated Therapeutics Group, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17558,
+            "MASTER_CLIENT_NAME": "Integrium Cardiovascular Research",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14748,
+            "MASTER_CLIENT_NAME": "Intercept Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18026,
+            "MASTER_CLIENT_NAME": "International Partnership For Microbicides, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15462,
+            "MASTER_CLIENT_NAME": "Ipsen Biopharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14746,
+            "MASTER_CLIENT_NAME": "Ironwood Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14375,
+            "MASTER_CLIENT_NAME": "Isanas AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14114,
+            "MASTER_CLIENT_NAME": "J&J - Pfizer Consumer Health",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15547,
+            "MASTER_CLIENT_NAME": "JANSSEN",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15009,
+            "MASTER_CLIENT_NAME": "JANSSEN PHARMACEUTICA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14744,
+            "MASTER_CLIENT_NAME": "JANSSEN SCIENCES IRELAND UC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18176,
+            "MASTER_CLIENT_NAME": "JBCRG JapanBreastCancerResearchGroup",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14742,
+            "MASTER_CLIENT_NAME": "JW PHARMACEUTICAL CORPORATION",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14639,
+            "MASTER_CLIENT_NAME": "Janssen Cilag, S.A. de C.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16373,
+            "MASTER_CLIENT_NAME": "Janssen Pharmaceutica NV",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16918,
+            "MASTER_CLIENT_NAME": "Janssen Products, LP",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15460,
+            "MASTER_CLIENT_NAME": "Janssen R&D, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17615,
+            "MASTER_CLIENT_NAME": "Janssen US",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15877,
+            "MASTER_CLIENT_NAME": "Janssen, LP",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17832,
+            "MASTER_CLIENT_NAME": "Jdp Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15718,
+            "MASTER_CLIENT_NAME": "Jerini AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14743,
+            "MASTER_CLIENT_NAME": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16717,
+            "MASTER_CLIENT_NAME": "John Wise - Defensa-Industria",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15717,
+            "MASTER_CLIENT_NAME": "Johns Hopkins University",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17831,
+            "MASTER_CLIENT_NAME": "Johnson & Johnson",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15346,
+            "MASTER_CLIENT_NAME": "Johnson & Johnson Pharmaceutical Research & Develo",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14745,
+            "MASTER_CLIENT_NAME": "Johnson & Johnson",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15288,
+            "MASTER_CLIENT_NAME": "Justus-liebig-universität Gießen",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14634,
+            "MASTER_CLIENT_NAME": "KUEHNE + NAGEL (UK) LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17097,
+            "MASTER_CLIENT_NAME": "KV Pharm",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17551,
+            "MASTER_CLIENT_NAME": "Kantonsspital Baselland",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18174,
+            "MASTER_CLIENT_NAME": "Kenta Biotech AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15813,
+            "MASTER_CLIENT_NAME": "Keryx Biopharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18173,
+            "MASTER_CLIENT_NAME": "King Pharmaceuticals Research & Development, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15812,
+            "MASTER_CLIENT_NAME": "Kite Pharma, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15715,
+            "MASTER_CLIENT_NAME": "Klus Pharma Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14111,
+            "MASTER_CLIENT_NAME": "Kos Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17490,
+            "MASTER_CLIENT_NAME": "Kosan Biosciences",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16517,
+            "MASTER_CLIENT_NAME": "Kowa Research Institute Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15714,
+            "MASTER_CLIENT_NAME": "Kura Oncology, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15811,
+            "MASTER_CLIENT_NAME": "Kuros Biosurgery AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15003,
+            "MASTER_CLIENT_NAME": "Kyowa Kirin USA Holdings, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14739,
+            "MASTER_CLIENT_NAME": "Kythera Biopharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18111,
+            "MASTER_CLIENT_NAME": "LABORATORIO PABLO CASSARA S.R.L.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17348,
+            "MASTER_CLIENT_NAME": "LABORATORIOS DEL DR ESTEVE SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15272,
+            "MASTER_CLIENT_NAME": "LASCCO SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17384,
+            "MASTER_CLIENT_NAME": "LEX ANO UAB",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15271,
+            "MASTER_CLIENT_NAME": "LG Life Sciences, Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17439,
+            "MASTER_CLIENT_NAME": "LIFEBOND LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17793,
+            "MASTER_CLIENT_NAME": "LILLY CENTRE FOR CLINICAL PHARMACOLOGY PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16203,
+            "MASTER_CLIENT_NAME": "LOTUS LABS PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16516,
+            "MASTER_CLIENT_NAME": "Laboratoires Servier Industrie",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15713,
+            "MASTER_CLIENT_NAME": "Langford Research Institute, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14733,
+            "MASTER_CLIENT_NAME": "Leadiant Biosciences, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15871,
+            "MASTER_CLIENT_NAME": "Leidos Biomedical Research Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15001,
+            "MASTER_CLIENT_NAME": "Lib Management Services Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16514,
+            "MASTER_CLIENT_NAME": "Ligand Pharmaceuticals Incorporated",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15270,
+            "MASTER_CLIENT_NAME": "LimmaTech Biologics AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14631,
+            "MASTER_CLIENT_NAME": "Live Oak Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17438,
+            "MASTER_CLIENT_NAME": "Lorex Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15049,
+            "MASTER_CLIENT_NAME": "Lumavita AG in Liquidation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17698,
+            "MASTER_CLIENT_NAME": "Lundbeck Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17961,
+            "MASTER_CLIENT_NAME": "Lung Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17792,
+            "MASTER_CLIENT_NAME": "Lupin Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15269,
+            "MASTER_CLIENT_NAME": "Lyric Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14630,
+            "MASTER_CLIENT_NAME": "MABXIENCE S.A.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15191,
+            "MASTER_CLIENT_NAME": "MALLINCKRODT PUBLIC LIMITED COMPANY",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17435,
+            "MASTER_CLIENT_NAME": "MAYNE PHARMA INTERNATIONAL PTY LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14627,
+            "MASTER_CLIENT_NAME": "MDS Pharma Services Gb Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15706,
+            "MASTER_CLIENT_NAME": "MEDREICH LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17651,
+            "MASTER_CLIENT_NAME": "MEIJI SEIKA KAISHA LIMITED & MEIJI TRADING CORPORA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17692,
+            "MASTER_CLIENT_NAME": "MEIJI SEIKA PHARMA CO. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16134,
+            "MASTER_CLIENT_NAME": "MERCK CONSUMER HEALTHCARE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14623,
+            "MASTER_CLIENT_NAME": "MERCK SERONO CO., LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16589,
+            "MASTER_CLIENT_NAME": "MERCK SHARP & DOHME LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14454,
+            "MASTER_CLIENT_NAME": "MERCK West Point ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16507,
+            "MASTER_CLIENT_NAME": "MERLION PHARMACEUTICALS PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17425,
+            "MASTER_CLIENT_NAME": "MRI Global",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18256,
+            "MASTER_CLIENT_NAME": "MSD CO.LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17902,
+            "MASTER_CLIENT_NAME": "MSD INTERNATIONAL GMBH (SINGAPORE BRANCH)",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17363,
+            "MASTER_CLIENT_NAME": "MSD Merck Sharp & Dohme AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17582,
+            "MASTER_CLIENT_NAME": "Mabvax Therapeutics Holdings Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15868,
+            "MASTER_CLIENT_NAME": "MacroGenics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15731,
+            "MASTER_CLIENT_NAME": "Madrigal Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14309,
+            "MASTER_CLIENT_NAME": "Mallinckrodt LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16512,
+            "MASTER_CLIENT_NAME": "Marcadia Biotech. Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17910,
+            "MASTER_CLIENT_NAME": "Marina Therapeutics LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15708,
+            "MASTER_CLIENT_NAME": "Mast Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14997,
+            "MASTER_CLIENT_NAME": "Mateon Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15267,
+            "MASTER_CLIENT_NAME": "Matrizyme Pharma Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14734,
+            "MASTER_CLIENT_NAME": "MaxiVAX SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17495,
+            "MASTER_CLIENT_NAME": "Maxim Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15974,
+            "MASTER_CLIENT_NAME": "Mayo Clinic",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17695,
+            "MASTER_CLIENT_NAME": "McNeil Consumer Pharmaceuticals Co.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17486,
+            "MASTER_CLIENT_NAME": "Mcneil AB",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16136,
+            "MASTER_CLIENT_NAME": "Meda Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14625,
+            "MASTER_CLIENT_NAME": "Medarex, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15265,
+            "MASTER_CLIENT_NAME": "Medelis Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15705,
+            "MASTER_CLIENT_NAME": "Medicago USA Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17432,
+            "MASTER_CLIENT_NAME": "Medicinova, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17492,
+            "MASTER_CLIENT_NAME": "Medicis Pharmaceutical Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14731,
+            "MASTER_CLIENT_NAME": "Medimmune Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17484,
+            "MASTER_CLIENT_NAME": "Medivation, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16508,
+            "MASTER_CLIENT_NAME": "Medivir AB",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15803,
+            "MASTER_CLIENT_NAME": "Medpace Holdings, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16591,
+            "MASTER_CLIENT_NAME": "Medpace LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15804,
+            "MASTER_CLIENT_NAME": "Medpace Medical Consulting GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17693,
+            "MASTER_CLIENT_NAME": "Medtrials, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17652,
+            "MASTER_CLIENT_NAME": "Medytox Korea Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15802,
+            "MASTER_CLIENT_NAME": "Memorial Sloan-Kettering Cancer Center",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17906,
+            "MASTER_CLIENT_NAME": "Merck Research Laboratories ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16585,
+            "MASTER_CLIENT_NAME": "Merck Sharp & Dohme (China) Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17657,
+            "MASTER_CLIENT_NAME": "Merck Sharp & Dohme (I.A.) Corp.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17691,
+            "MASTER_CLIENT_NAME": "Merck Sharp & Dohme Saúde Animal Ltda",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14648,
+            "MASTER_CLIENT_NAME": "Merck Via Allentown",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16500,
+            "MASTER_CLIENT_NAME": "Merck West Point Via Allentown",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14994,
+            "MASTER_CLIENT_NAME": "Merck and Co Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14100,
+            "MASTER_CLIENT_NAME": "Merckle GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15704,
+            "MASTER_CLIENT_NAME": "Merrimack Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17480,
+            "MASTER_CLIENT_NAME": "Metabasis Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16278,
+            "MASTER_CLIENT_NAME": "Middlebrook Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17689,
+            "MASTER_CLIENT_NAME": "Millennium Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15260,
+            "MASTER_CLIENT_NAME": "Mitsubishi Tanabe Pharma Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16342,
+            "MASTER_CLIENT_NAME": "Molecular Templates, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14098,
+            "MASTER_CLIENT_NAME": "Momenta Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17903,
+            "MASTER_CLIENT_NAME": "MorphoSys AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15259,
+            "MASTER_CLIENT_NAME": "Mpex Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15701,
+            "MASTER_CLIENT_NAME": "Mucosal Therapeutics",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14883,
+            "MASTER_CLIENT_NAME": "Mundipharma (China) Pharmaceutical Co Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16584,
+            "MASTER_CLIENT_NAME": "Mylan Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15997,
+            "MASTER_CLIENT_NAME": "Mylan Institutional LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17362,
+            "MASTER_CLIENT_NAME": "Mylan Teoranta",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17901,
+            "MASTER_CLIENT_NAME": "Myokardia, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14618,
+            "MASTER_CLIENT_NAME": "NAPP PHARMACEUTICAL HOLDINGS LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16274,
+            "MASTER_CLIENT_NAME": "NATIONAL CANCER CENTRE OF SINGAPORE PTE LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17126,
+            "MASTER_CLIENT_NAME": "NATIONAL UNIVERSITY HOSPITAL (SINGAPORE) PTE LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15794,
+            "MASTER_CLIENT_NAME": "NERVIANO MEDICAL SCIENCES SRL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18252,
+            "MASTER_CLIENT_NAME": "NEUREN PHARMACEUTICALS LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14986,
+            "MASTER_CLIENT_NAME": "NEWRON PHARMACEUTICALS SPA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17123,
+            "MASTER_CLIENT_NAME": "NORTH STAR SHIPPING SERVICE PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14982,
+            "MASTER_CLIENT_NAME": "NOVARTIS (TAIWAN) CO., LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15250,
+            "MASTER_CLIENT_NAME": "NOVARTIS (THAILAND) LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16352,
+            "MASTER_CLIENT_NAME": "NOVARTIS ASIA PACIFIC PHARMACEUTICALS PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17367,
+            "MASTER_CLIENT_NAME": "NOVARTIS CONSUMER HEALTH S.A.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14437,
+            "MASTER_CLIENT_NAME": "NOVARTIS CORPORATION (MALAYSIA) SDN. BHD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17370,
+            "MASTER_CLIENT_NAME": "NOVARTIS EUROPHARM LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14090,
+            "MASTER_CLIENT_NAME": "NOVARTIS HEALTHCARE PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17787,
+            "MASTER_CLIENT_NAME": "NOVARTIS INDONESIA, PT",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14438,
+            "MASTER_CLIENT_NAME": "NOVARTIS ISRAEL  LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17121,
+            "MASTER_CLIENT_NAME": "NOVARTIS PHARMA K.K.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14983,
+            "MASTER_CLIENT_NAME": "NOVARTIS PHARMA MAROC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16211,
+            "MASTER_CLIENT_NAME": "NOVARTIS PHARMA SERVICES ROMANIA SRL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17739,
+            "MASTER_CLIENT_NAME": "NOVELLA CLINICAL RESOURCING LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18188,
+            "MASTER_CLIENT_NAME": "NPS Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15177,
+            "MASTER_CLIENT_NAME": "NTI via Allentown",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15796,
+            "MASTER_CLIENT_NAME": "Nabi Biopharmacetuicals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14882,
+            "MASTER_CLIENT_NAME": "Nanjing Chia Tai Tianqing Pharmaceutical Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15257,
+            "MASTER_CLIENT_NAME": "Nantworks LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16908,
+            "MASTER_CLIENT_NAME": "National Cancer Institute",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16582,
+            "MASTER_CLIENT_NAME": "Neon Therapeutics, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16216,
+            "MASTER_CLIENT_NAME": "Neopharm Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17360,
+            "MASTER_CLIENT_NAME": "Neovacs SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14094,
+            "MASTER_CLIENT_NAME": "Neovii Biotech Na, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17373,
+            "MASTER_CLIENT_NAME": "Neumedicines",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15697,
+            "MASTER_CLIENT_NAME": "NeuroCure Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16215,
+            "MASTER_CLIENT_NAME": "NeuroRx Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17597,
+            "MASTER_CLIENT_NAME": "Neurobiological Technologies Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17742,
+            "MASTER_CLIENT_NAME": "Neurocrine Biosciences, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17472,
+            "MASTER_CLIENT_NAME": "Neurogen Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15793,
+            "MASTER_CLIENT_NAME": "NeurogesX Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16581,
+            "MASTER_CLIENT_NAME": "Neurophage Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17643,
+            "MASTER_CLIENT_NAME": "New England Research Institutes, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17372,
+            "MASTER_CLIENT_NAME": "Nexmed (u.s.a.), Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17741,
+            "MASTER_CLIENT_NAME": "Ngm Biopharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14721,
+            "MASTER_CLIENT_NAME": "Norwich Clinical Services Pvt Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17120,
+            "MASTER_CLIENT_NAME": "NovImmune SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18248,
+            "MASTER_CLIENT_NAME": "Novartis Biociências S/A.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18274,
+            "MASTER_CLIENT_NAME": "Novartis Consulting AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15694,
+            "MASTER_CLIENT_NAME": "Novartis Farmacéutica, S.A. de C.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16828,
+            "MASTER_CLIENT_NAME": "Novartis Healthcare Pvt.Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14876,
+            "MASTER_CLIENT_NAME": "Novartis Korea Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14984,
+            "MASTER_CLIENT_NAME": "Novartis Pharma AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16354,
+            "MASTER_CLIENT_NAME": "Novartis Pharma Canada Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17369,
+            "MASTER_CLIENT_NAME": "Novartis Pharma SAE",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18272,
+            "MASTER_CLIENT_NAME": "Novartis Pharma Services AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15251,
+            "MASTER_CLIENT_NAME": "Novartis Sverige AB",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14981,
+            "MASTER_CLIENT_NAME": "Novartis Vaccines and Diagnostics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14684,
+            "MASTER_CLIENT_NAME": "Novelion Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16353,
+            "MASTER_CLIENT_NAME": "Novella Clinical Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17467,
+            "MASTER_CLIENT_NAME": "Noven Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16210,
+            "MASTER_CLIENT_NAME": "NovinPharma Canada",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18273,
+            "MASTER_CLIENT_NAME": "Novira Therapeutics",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17409,
+            "MASTER_CLIENT_NAME": "Novo Nordisk A/S",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15789,
+            "MASTER_CLIENT_NAME": "Novo Nordisk Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15775,
+            "MASTER_CLIENT_NAME": "Novo Nordisk India Pvt Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17466,
+            "MASTER_CLIENT_NAME": "NuCana Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17203,
+            "MASTER_CLIENT_NAME": "Nventa Biopharmaceuticals Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14979,
+            "MASTER_CLIENT_NAME": "O K T, OOO",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17117,
+            "MASTER_CLIENT_NAME": "OMNIPHARM LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15941,
+            "MASTER_CLIENT_NAME": "ONO PHARMACEUTICAL CO., LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14872,
+            "MASTER_CLIENT_NAME": "ONXEO",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17403,
+            "MASTER_CLIENT_NAME": "OTIC PHARMA LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15242,
+            "MASTER_CLIENT_NAME": "OTSUKA PHARMACEUTICAL CO., LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17402,
+            "MASTER_CLIENT_NAME": "OXYPLUS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17197,
+            "MASTER_CLIENT_NAME": "OXiGENE Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15943,
+            "MASTER_CLIENT_NAME": "Oakmontscript Limited Partnership",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16289,
+            "MASTER_CLIENT_NAME": "Ohr Pharmaceutical, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17406,
+            "MASTER_CLIENT_NAME": "Omthera Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17116,
+            "MASTER_CLIENT_NAME": "OncoMed Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14433,
+            "MASTER_CLIENT_NAME": "OncoRX Pharma Pvt Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18186,
+            "MASTER_CLIENT_NAME": "Oncobiologics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16288,
+            "MASTER_CLIENT_NAME": "Oncolytics Biotech Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17703,
+            "MASTER_CLIENT_NAME": "Onconova Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14432,
+            "MASTER_CLIENT_NAME": "Onxeo S.A.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17578,
+            "MASTER_CLIENT_NAME": "Onyx Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17200,
+            "MASTER_CLIENT_NAME": "Ophthotech Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17702,
+            "MASTER_CLIENT_NAME": "Opko Health, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14977,
+            "MASTER_CLIENT_NAME": "Oravax Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14081,
+            "MASTER_CLIENT_NAME": "Orexigen Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14431,
+            "MASTER_CLIENT_NAME": "Orexo AB",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16356,
+            "MASTER_CLIENT_NAME": "Organisation Europeenne pour la Recherche et le Tr",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17199,
+            "MASTER_CLIENT_NAME": "Organon",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16286,
+            "MASTER_CLIENT_NAME": "Organon USA Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17701,
+            "MASTER_CLIENT_NAME": "Orion Oyj",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14676,
+            "MASTER_CLIENT_NAME": "Ortho-Mcneil Pharmaceutical, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14430,
+            "MASTER_CLIENT_NAME": "Oscient Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16285,
+            "MASTER_CLIENT_NAME": "Osmotica Pharmaceutical",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14429,
+            "MASTER_CLIENT_NAME": "Otsuka America Pharmaceutical Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14079,
+            "MASTER_CLIENT_NAME": "Otsuka Beijing Research Institute",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15503,
+            "MASTER_CLIENT_NAME": "Otsuka Pharma GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14869,
+            "MASTER_CLIENT_NAME": "Otsuka Pharmaceutical Development & Commercializat",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14868,
+            "MASTER_CLIENT_NAME": "PAION AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17459,
+            "MASTER_CLIENT_NAME": "PAREXEL INTERNATIONAL (SINGAPORE) PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15237,
+            "MASTER_CLIENT_NAME": "PFIZER IRELAND PHARMACEUTICALS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15238,
+            "MASTER_CLIENT_NAME": "PFIZER JAPAN INC.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14971,
+            "MASTER_CLIENT_NAME": "PHARMACEUTICAL PACKAGING PROFESSIONALS PTY LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17969,
+            "MASTER_CLIENT_NAME": "PHARMACIA ITALIA SPA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17970,
+            "MASTER_CLIENT_NAME": "PHARMACIA LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16810,
+            "MASTER_CLIENT_NAME": "PHOENIX Pharmahandel GmbH & Co KG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17528,
+            "MASTER_CLIENT_NAME": "PIERRE FABRE MEDICAMENT",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15872,
+            "MASTER_CLIENT_NAME": "PIERRE FABRE SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17275,
+            "MASTER_CLIENT_NAME": "PLIVA HRVATSKA d.o.o.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16959,
+            "MASTER_CLIENT_NAME": "POWDERMED LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15492,
+            "MASTER_CLIENT_NAME": "PPD Development",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17965,
+            "MASTER_CLIENT_NAME": "PRA International, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14089,
+            "MASTER_CLIENT_NAME": "PREDSTAVNISTVO NOVARTIS PHARMA SERVICES INC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14420,
+            "MASTER_CLIENT_NAME": "PREMIER RESEARCH GROUP LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15491,
+            "MASTER_CLIENT_NAME": "PREP BIOPHARM LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17456,
+            "MASTER_CLIENT_NAME": "PRIMETEC PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15228,
+            "MASTER_CLIENT_NAME": "PROTECH PHARMASERVICES CORPORATION",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18158,
+            "MASTER_CLIENT_NAME": "PROXIMAGEN GROUP LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16888,
+            "MASTER_CLIENT_NAME": "PSR Group B.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16060,
+            "MASTER_CLIENT_NAME": "PTC LONDON LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15502,
+            "MASTER_CLIENT_NAME": "Paddock Laboratories, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15241,
+            "MASTER_CLIENT_NAME": "Pain Therapeutics Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14428,
+            "MASTER_CLIENT_NAME": "Palatin Technologies, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14867,
+            "MASTER_CLIENT_NAME": "Par Pharmaceutical, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14975,
+            "MASTER_CLIENT_NAME": "Paragon Biomedical, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15652,
+            "MASTER_CLIENT_NAME": "Paratek Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14077,
+            "MASTER_CLIENT_NAME": "Parexel International Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18238,
+            "MASTER_CLIENT_NAME": "Peloton Therapeutics, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14426,
+            "MASTER_CLIENT_NAME": "Peninsula Pharmaceuticals, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14974,
+            "MASTER_CLIENT_NAME": "Pentek Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17572,
+            "MASTER_CLIENT_NAME": "Peptimmune, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17973,
+            "MASTER_CLIENT_NAME": "Perle Bioscience, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17195,
+            "MASTER_CLIENT_NAME": "Perrigo Company",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18237,
+            "MASTER_CLIENT_NAME": "Pfenex Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15498,
+            "MASTER_CLIENT_NAME": "Pfizer Agouron",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16814,
+            "MASTER_CLIENT_NAME": "Pfizer Limited",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15236,
+            "MASTER_CLIENT_NAME": "Phadia AB",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14862,
+            "MASTER_CLIENT_NAME": "PharmaNet Resource Solutions GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17192,
+            "MASTER_CLIENT_NAME": "Pharmachemie B.V.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17529,
+            "MASTER_CLIENT_NAME": "Pharmacia & Upjohn Company LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17876,
+            "MASTER_CLIENT_NAME": "Pierce Biotechnology, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15494,
+            "MASTER_CLIENT_NAME": "Pieris Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14069,
+            "MASTER_CLIENT_NAME": "Plexxikon Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18161,
+            "MASTER_CLIENT_NAME": "Polus Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18234,
+            "MASTER_CLIENT_NAME": "Polyphor AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17966,
+            "MASTER_CLIENT_NAME": "Pozen Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18232,
+            "MASTER_CLIENT_NAME": "Praecis Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15064,
+            "MASTER_CLIENT_NAME": "Precog, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15230,
+            "MASTER_CLIENT_NAME": "Premier Research International LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16891,
+            "MASTER_CLIENT_NAME": "Primetrics Pte Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18787,
+            "MASTER_CLIENT_NAME": "ProClinical Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17523,
+            "MASTER_CLIENT_NAME": "ProStrakan Pharmaceuticals Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17454,
+            "MASTER_CLIENT_NAME": "Prolong Pharmaceuticals, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14418,
+            "MASTER_CLIENT_NAME": "Pronai Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18171,
+            "MASTER_CLIENT_NAME": "Prospect Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16806,
+            "MASTER_CLIENT_NAME": "Protagen Protein Services GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17788,
+            "MASTER_CLIENT_NAME": "Proteus Digital Health, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15063,
+            "MASTER_CLIENT_NAME": "Protez Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15227,
+            "MASTER_CLIENT_NAME": "Provenance Biopharmaceuticals Corp",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17453,
+            "MASTER_CLIENT_NAME": "PsiOxus Therapeutics Limited",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18096,
+            "MASTER_CLIENT_NAME": "Purdue Pharma L.P.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14416,
+            "MASTER_CLIENT_NAME": "Qr Pharma, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17270,
+            "MASTER_CLIENT_NAME": "Quatrobio LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16887,
+            "MASTER_CLIENT_NAME": "Queen Mary Univ of London",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18168,
+            "MASTER_CLIENT_NAME": "QuintilesIMS",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18095,
+            "MASTER_CLIENT_NAME": "Quote Template",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18092,
+            "MASTER_CLIENT_NAME": "R&G PharmaStudies Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17204,
+            "MASTER_CLIENT_NAME": "R-Pharm Overseas, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17750,
+            "MASTER_CLIENT_NAME": "R-TECH UENO, LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15923,
+            "MASTER_CLIENT_NAME": "R5 Pharmaceuticals Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18094,
+            "MASTER_CLIENT_NAME": "REDHILL BIOPHARMA LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17784,
+            "MASTER_CLIENT_NAME": "RELIANCE LIFE SCIENCES PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17958,
+            "MASTER_CLIENT_NAME": "RFE Pharma Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14517,
+            "MASTER_CLIENT_NAME": "Rafael Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15059,
+            "MASTER_CLIENT_NAME": "Ranbaxy Laboratories Limited",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16571,
+            "MASTER_CLIENT_NAME": "Reata Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17785,
+            "MASTER_CLIENT_NAME": "Recipharm AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17634,
+            "MASTER_CLIENT_NAME": "Regeneron Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17450,
+            "MASTER_CLIENT_NAME": "Regenerx Biopharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16885,
+            "MASTER_CLIENT_NAME": "Reliance Life Sciences Navi Mumbai",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17328,
+            "MASTER_CLIENT_NAME": "Relmada Therapeutics, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18166,
+            "MASTER_CLIENT_NAME": "Rempex Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15484,
+            "MASTER_CLIENT_NAME": "Renaissance Pharma, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15223,
+            "MASTER_CLIENT_NAME": "Renova Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17249,
+            "MASTER_CLIENT_NAME": "Representative office of Janseen Pha",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14413,
+            "MASTER_CLIENT_NAME": "Research Pharmaceutical Services, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17783,
+            "MASTER_CLIENT_NAME": "Revance Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16569,
+            "MASTER_CLIENT_NAME": "Reviva Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15920,
+            "MASTER_CLIENT_NAME": "Rhizen Pharmaceuticals SA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15222,
+            "MASTER_CLIENT_NAME": "Rho, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17014,
+            "MASTER_CLIENT_NAME": "Roche Products Pty Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15964,
+            "MASTER_CLIENT_NAME": "Rocket Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15565,
+            "MASTER_CLIENT_NAME": "SA GENFIT",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15217,
+            "MASTER_CLIENT_NAME": "SENZER LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17379,
+            "MASTER_CLIENT_NAME": "SEQIRUS SRL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17952,
+            "MASTER_CLIENT_NAME": "SERVIER INTERNATIONAL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15215,
+            "MASTER_CLIENT_NAME": "SHIONOGI & CO., LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17950,
+            "MASTER_CLIENT_NAME": "SINGAPORE CLINICAL RESEARCH INSTITUTE PTE. LTD.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15741,
+            "MASTER_CLIENT_NAME": "SK Discovery Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17949,
+            "MASTER_CLIENT_NAME": "SOLASIA PHARMA K.K.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14678,
+            "MASTER_CLIENT_NAME": "SOUTH AUSTRALIAN HEALTH AND MEDICAL RESEARCH INSTI",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16969,
+            "MASTER_CLIENT_NAME": "SOUTHERN CROSS PHARMA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15212,
+            "MASTER_CLIENT_NAME": "SPRI OLP",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17001,
+            "MASTER_CLIENT_NAME": "ST. STEPHEN'S AIDS TRUST",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17513,
+            "MASTER_CLIENT_NAME": "STARPHARMA PTY LTD",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17946,
+            "MASTER_CLIENT_NAME": "STELIS BIOPHARMA PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17321,
+            "MASTER_CLIENT_NAME": "STOCKPORT NHS FOUNDATION TRUST",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15469,
+            "MASTER_CLIENT_NAME": "SUGARDOWN COMPANY LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14666,
+            "MASTER_CLIENT_NAME": "SUMMIT THERAPEUTICS PLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15054,
+            "MASTER_CLIENT_NAME": "Sahlgrenska University Hospital",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17037,
+            "MASTER_CLIENT_NAME": "Salix Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17749,
+            "MASTER_CLIENT_NAME": "Samsung Bioepis Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17012,
+            "MASTER_CLIENT_NAME": "Sancilio & Company, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15480,
+            "MASTER_CLIENT_NAME": "Sandoz International GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14410,
+            "MASTER_CLIENT_NAME": "Sankyo",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17381,
+            "MASTER_CLIENT_NAME": "Sanofi Pasteur Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17567,
+            "MASTER_CLIENT_NAME": "Santhera Pharmaceuticals (Schweiz) AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16643,
+            "MASTER_CLIENT_NAME": "Sarawak Medichem Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16565,
+            "MASTER_CLIENT_NAME": "Sarepta Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18245,
+            "MASTER_CLIENT_NAME": "Savient Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18049,
+            "MASTER_CLIENT_NAME": "Schering-Plough",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17954,
+            "MASTER_CLIENT_NAME": "Schott Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15479,
+            "MASTER_CLIENT_NAME": "SciClone Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15052,
+            "MASTER_CLIENT_NAME": "Scirex-CT LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14409,
+            "MASTER_CLIENT_NAME": "Scope International AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17380,
+            "MASTER_CLIENT_NAME": "Seaside Therapeutics, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16642,
+            "MASTER_CLIENT_NAME": "Seattle Genetics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15478,
+            "MASTER_CLIENT_NAME": "Semnur Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18243,
+            "MASTER_CLIENT_NAME": "Serono Laboratories Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15743,
+            "MASTER_CLIENT_NAME": "Sfbc International Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16972,
+            "MASTER_CLIENT_NAME": "Shanghai Benemae Pharmaceutical Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16504,
+            "MASTER_CLIENT_NAME": "Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15742,
+            "MASTER_CLIENT_NAME": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17008,
+            "MASTER_CLIENT_NAME": "Shenzhen Techdow Pharmaceutical Co., Ltd.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15476,
+            "MASTER_CLIENT_NAME": "Shire HGT",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18084,
+            "MASTER_CLIENT_NAME": "Shire Viropharma Incorporated",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14052,
+            "MASTER_CLIENT_NAME": "Siegfried AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16639,
+            "MASTER_CLIENT_NAME": "Silence Therapeutics GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16971,
+            "MASTER_CLIENT_NAME": "SillaJen, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17744,
+            "MASTER_CLIENT_NAME": "Singular Bio, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14405,
+            "MASTER_CLIENT_NAME": "SkyePharma AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17376,
+            "MASTER_CLIENT_NAME": "Sloan Pharma S.A.R.L.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16335,
+            "MASTER_CLIENT_NAME": "Social & Scientific Systems, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15474,
+            "MASTER_CLIENT_NAME": "Solvay Pharm US Holdings Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15213,
+            "MASTER_CLIENT_NAME": "Solvias AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15048,
+            "MASTER_CLIENT_NAME": "Somahlution, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14303,
+            "MASTER_CLIENT_NAME": "Southampton University Hospital",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17948,
+            "MASTER_CLIENT_NAME": "Spectrum Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18239,
+            "MASTER_CLIENT_NAME": "Speedel Bio AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15739,
+            "MASTER_CLIENT_NAME": "Spirig Pharma AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17323,
+            "MASTER_CLIENT_NAME": "Stallergenes",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16967,
+            "MASTER_CLIENT_NAME": "Stanford University",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17592,
+            "MASTER_CLIENT_NAME": "Stealth Biotherapeutics Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17003,
+            "MASTER_CLIENT_NAME": "Stem CentRx Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18019,
+            "MASTER_CLIENT_NAME": "Stemline Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14377,
+            "MASTER_CLIENT_NAME": "Stiftung \"International Breast Cancer Study Group ",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16271,
+            "MASTER_CLIENT_NAME": "Strides Acrolab Limited",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17319,
+            "MASTER_CLIENT_NAME": "Sun Pharma Advanced Research Co Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17509,
+            "MASTER_CLIENT_NAME": "Sunesis Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14044,
+            "MASTER_CLIENT_NAME": "Sunovion Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16963,
+            "MASTER_CLIENT_NAME": "Sunstar Pharmaceutical, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17588,
+            "MASTER_CLIENT_NAME": "Superlab Far East Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17507,
+            "MASTER_CLIENT_NAME": "Symphony Evolution, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16268,
+            "MASTER_CLIENT_NAME": "SynteractHCR Holdings Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14395,
+            "MASTER_CLIENT_NAME": "TAKEDA PHARMACEUTICAL COMPANY LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16837,
+            "MASTER_CLIENT_NAME": "TARGOS Molecular Pathology GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14063,
+            "MASTER_CLIENT_NAME": "TBG DIAGNOSTICS LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14037,
+            "MASTER_CLIENT_NAME": "TEVA Pharmaceuticals, USA",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16419,
+            "MASTER_CLIENT_NAME": "THE OXFORD UNIVERSITY HOSPITALS NHS TRUST",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16846,
+            "MASTER_CLIENT_NAME": "THE UNIVERSITY OF GLASGOW",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16772,
+            "MASTER_CLIENT_NAME": "THERMO ELECTRON LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15294,
+            "MASTER_CLIENT_NAME": "TRANSGENE",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15650,
+            "MASTER_CLIENT_NAME": "TRANSLATIONAL RESEARCH IN ONCOLOGY EURL",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15465,
+            "MASTER_CLIENT_NAME": "Tactic Pharma LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15039,
+            "MASTER_CLIENT_NAME": "Taiho Oncology Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14662,
+            "MASTER_CLIENT_NAME": "Taisho Pharmaceutical R&D Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17444,
+            "MASTER_CLIENT_NAME": "Tallikut Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16350,
+            "MASTER_CLIENT_NAME": "Tanox Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16266,
+            "MASTER_CLIENT_NAME": "Tap Pharmaceutical Products Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15037,
+            "MASTER_CLIENT_NAME": "Targeted Genetics Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18011,
+            "MASTER_CLIENT_NAME": "Taro Pharmaceuticals U.S.A., Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15304,
+            "MASTER_CLIENT_NAME": "Tarveda Therapeutics, Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16758,
+            "MASTER_CLIENT_NAME": "Terumo",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15383,
+            "MASTER_CLIENT_NAME": "Tesaro Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18115,
+            "MASTER_CLIENT_NAME": "Test",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15035,
+            "MASTER_CLIENT_NAME": "Tetralogic Pharmaceuticals Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14590,
+            "MASTER_CLIENT_NAME": "Tetraphase Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14998,
+            "MASTER_CLIENT_NAME": "Tg Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17931,
+            "MASTER_CLIENT_NAME": "The Brigham and Women's Hospital Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16079,
+            "MASTER_CLIENT_NAME": "The Cleveland Clinic Foundation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16692,
+            "MASTER_CLIENT_NAME": "The Coghlan Group",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16344,
+            "MASTER_CLIENT_NAME": "The Kirby Institute",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14143,
+            "MASTER_CLIENT_NAME": "The University of Iowa",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14316,
+            "MASTER_CLIENT_NAME": "Theracos Sub LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15381,
+            "MASTER_CLIENT_NAME": "Theradex Europe Ltd",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16720,
+            "MASTER_CLIENT_NAME": "Therapeutic Proteins Intrnl LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16770,
+            "MASTER_CLIENT_NAME": "Theravance Biopharma Antibiotics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14033,
+            "MASTER_CLIENT_NAME": "Thoratec Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17258,
+            "MASTER_CLIENT_NAME": "ThromboGenics NV",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14851,
+            "MASTER_CLIENT_NAME": "Tiziana Life Sciences PLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16648,
+            "MASTER_CLIENT_NAME": "Tolmar Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16766,
+            "MASTER_CLIENT_NAME": "Total Clinical Trial Management LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14582,
+            "MASTER_CLIENT_NAME": "Tracon Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17386,
+            "MASTER_CLIENT_NAME": "Transition Therapeutics Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16094,
+            "MASTER_CLIENT_NAME": "Transport Pharmaceuticals, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17254,
+            "MASTER_CLIENT_NAME": "Trevena, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15292,
+            "MASTER_CLIENT_NAME": "Tricida, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14847,
+            "MASTER_CLIENT_NAME": "True North Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17011,
+            "MASTER_CLIENT_NAME": "UCB Pharma GmbH",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16531,
+            "MASTER_CLIENT_NAME": "UNIVERSITY OF BIRMINGHAM",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17333,
+            "MASTER_CLIENT_NAME": "UNIVERSITY OF MANCHESTER",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15363,
+            "MASTER_CLIENT_NAME": "USV PRIVATE LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16535,
+            "MASTER_CLIENT_NAME": "Ultragenyx Pharmaceutical Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16108,
+            "MASTER_CLIENT_NAME": "United Biosource LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14573,
+            "MASTER_CLIENT_NAME": "United Laboratories Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16736,
+            "MASTER_CLIENT_NAME": "United Therapeutics Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14843,
+            "MASTER_CLIENT_NAME": "University Of Zurich",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14305,
+            "MASTER_CLIENT_NAME": "University of Bern",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15058,
+            "MASTER_CLIENT_NAME": "University of California, Los Angeles",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14301,
+            "MASTER_CLIENT_NAME": "University of Colorado Foundation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16421,
+            "MASTER_CLIENT_NAME": "University of Liverpool",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15371,
+            "MASTER_CLIENT_NAME": "University of Michigan",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16844,
+            "MASTER_CLIENT_NAME": "University of Minnesota",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17331,
+            "MASTER_CLIENT_NAME": "University of Rochester Medical Center",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15284,
+            "MASTER_CLIENT_NAME": "University of Sydney",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17250,
+            "MASTER_CLIENT_NAME": "Universitätsklinikum Magdeburg AöR",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17315,
+            "MASTER_CLIENT_NAME": "Universitätsspital Basel",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17335,
+            "MASTER_CLIENT_NAME": "Universit�spital Z�rich",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18090,
+            "MASTER_CLIENT_NAME": "Upsher-Smith Laboratories",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14889,
+            "MASTER_CLIENT_NAME": "Uriach",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15280,
+            "MASTER_CLIENT_NAME": "VECTURA GROUP PLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 18086,
+            "MASTER_CLIENT_NAME": "VERNALIS (R&D) LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16413,
+            "MASTER_CLIENT_NAME": "VERYAN MEDICAL LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16524,
+            "MASTER_CLIENT_NAME": "VHSQUARED LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17265,
+            "MASTER_CLIENT_NAME": "VIRAMAL LIMITED",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14141,
+            "MASTER_CLIENT_NAME": "Valeant Pharmaceuticals",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14299,
+            "MASTER_CLIENT_NAME": "Validus Pharmaceuticals LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16415,
+            "MASTER_CLIENT_NAME": "Vanda Pharmaceuticals Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16734,
+            "MASTER_CLIENT_NAME": "Vanderbilt University Medical Center",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16526,
+            "MASTER_CLIENT_NAME": "Vaxinnate Corporation",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14139,
+            "MASTER_CLIENT_NAME": "VentiRx Pharmaceuticals Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16732,
+            "MASTER_CLIENT_NAME": "Verastem Inc",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17267,
+            "MASTER_CLIENT_NAME": "Vertex Pharmaceuticals Incorporated",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15278,
+            "MASTER_CLIENT_NAME": "Vifor Pharma Management AG",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14833,
+            "MASTER_CLIENT_NAME": "Viking Therapeutics, Inc.",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 14567,
+            "MASTER_CLIENT_NAME": "Vintage Pharmaceuticals, LLC",
+            "MODULE_ID": 16
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 15585,
+            "MASTER_CLIENT_NAME": "Wohlfahrtsstiftung der Janssen Vaccines AG",
+            "MODULE_ID": 16
+        }
+    ]
+}

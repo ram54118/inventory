@@ -1,0 +1,15 @@
+{
+    "success": true,
+    "result": [
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 16252,
+            "MASTER_CLIENT_NAME": "A. Menarini Research & Business Service GmbH",
+            "MASTER_PROTOCOL_ID": 162686,
+            "MASTER_PROTOCOL": "TBD",
+            "MODULE_ID": 16,
+            "USER_PROTOCOL_ROLE": "NA"
+        }
+    ]
+}
+

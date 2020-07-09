@@ -1,0 +1,32 @@
+{
+    "success": true,
+    "result": [
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17860,
+            "MASTER_CLIENT_NAME": "4 SC AG",
+            "MASTER_PROTOCOL_ID": 160983,
+            "MASTER_PROTOCOL": "4SC-201-1-2009",
+            "MODULE_ID": 16,
+            "USER_PROTOCOL_ROLE": "NA"
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17860,
+            "MASTER_CLIENT_NAME": "4 SC AG",
+            "MASTER_PROTOCOL_ID": 160984,
+            "MASTER_PROTOCOL": "4SC-205-1-2009",
+            "MODULE_ID": 16,
+            "USER_PROTOCOL_ROLE": "NA"
+        },
+        {
+            "USER_ID": null,
+            "MASTER_CLIENT_ID": 17860,
+            "MASTER_CLIENT_NAME": "4 SC AG",
+            "MASTER_PROTOCOL_ID": 160985,
+            "MASTER_PROTOCOL": "BYK446147",
+            "MODULE_ID": 16,
+            "USER_PROTOCOL_ROLE": "NA"
+        }
+    ]
+}
