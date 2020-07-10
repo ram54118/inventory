@@ -1,0 +1,21 @@
+@import './../../../variables.scss';
+
+:host(app-client-protocol-filter) {
+  .badge-view {
+    background: $white;
+    margin: 1rem 1rem 0 0;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+    &.selected {
+      background-color: $yellow;
+      color: $white;
+    }
+  }
+
+  .view {
+    max-height: 20rem;
+    overflow: auto;
+  }
+}

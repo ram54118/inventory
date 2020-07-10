@@ -1,0 +1,14 @@
+ <div class="header d-flex align-items-center">
+   <div class="flex-grow-1">
+     <span class="tab" *ngFor="let tab of tabsList" (click)="selectTab(tab.value)"
+       [ngClass]="{'select' : selectedTab === tab.value}">{{tab.label}} </span>
+   </div>
+   <input class="search" type="text" placeholder="Client Search" #searchClients>
+   <div class="d-flex align-items-center alternativ-view">
+     <label class="switch">
+       <input type="checkbox">
+       <span class="slider"></span>
+     </label>
+     <p class="m-0">ALternate View</p>
+   </div>
+ </div>

@@ -1,0 +1,15 @@
+<ng-container [ngSwitch]="view">
+  <div class="clients-view view d-flex flex-wrap" *ngSwitchCase="'clients'">
+    <div class="client badge-view" [ngClass]="{'selected': client.isSelected}"
+      *ngFor="let client of clientsList$ | async; trackBy: clientsTrackBy" (click)="addOrRemoveClient(client)">
+      {{client.MASTER_CLIENT_NAME}}
+    </div>
+  </div>
+  <div class="protocols-view view d-flex flex-wrap" *ngSwitchCase="'protocols'">
+    <div class="protocol badge-view" [ngClass]="{'selected': protocol.isSelected}"
+      *ngFor="let protocol of protocolList$ | async; trackBy: protocolsTrackBy" (click)="addOrRemoveProtocol(protocol)">
+      {{protocol.MASTER_CLIENT_NAME}}
+    </div>
+  </div>
+  <div class="filter-view view" *ngSwitchCase="'filters'"></div>
+</ng-container>

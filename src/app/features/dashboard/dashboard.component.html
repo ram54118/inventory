@@ -1,1 +1,92 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 p-0">
+      <app-header (tabChanged)="viewChanged($event)"></app-header>
+      <app-client-protocol-filter [view]="view"></app-client-protocol-filter>
+      <!-- <div class="filters-container my-2" *ngIf="filtersSelected">
+            <form [formGroup]="filtersForm">
+              <div class="d-flex flex-column flex-grow-1" formArrayName="filters">
+                <div class="d-flex my-2" *ngFor="let filter of filters.controls; let i=index">
+                  <ng-container [formGroupName]="i">
+                    <div *ngIf="i===0 && filters.controls.length > 1" style="width: 135px;margin-right: 12px;"></div>
+                    <div *ngIf="i !== 0">
+                      <ng-select [items]="relationOptions" bindLabel="name" bindValue="name" [multiple]="false"
+                        placeholder="Select" formControlName="relation"></ng-select>
+                    </div>
+                    <ng-select [items]="tableOptions" bindLabel="name" bindValue="name" [multiple]="false"
+                      placeholder="Select" formControlName="tableOptions">
+                    </ng-select>
+                    <ng-select [items]="relation2Options" *ngIf="getTableValue(i)" bindLabel="name" bindValue="name"
+                      [multiple]="false" placeholder="Select" formControlName="relation2">
+                    </ng-select>
+                    <input type="text" name="" id="" formControlName="searchOptions">
+                    <button class="action-btn ml-3" (click)="addFilterControl()">+</button>
+                    <button *ngIf="i !== 0 && filters.controls.length > 1" class="action-btn"
+                      (click)="removeFilterControl(i)">-</button>
+                  </ng-container>
+                </div>
+              </div>
+            </form>
+          </div>
+          <span class="badge badge-pill badge-light m-1" [ngClass]="{'selected': protocol.selected}"
+            *ngFor="let protocol of clientProtocols; trackBy:trackByClient"
+            (click)="selectClient(protocol)">{{protocol.MASTER_CLIENT_NAME}}</span>
+          <span *ngIf="clientProtocolsTemp && clientProtocolsTemp.length > 30 && !searchApplied"
+            class="badge badge-pill badge-light m-1"
+            (click)="showMoreProtocols()">...{{clientProtocolsTemp.length - clientProtocolsCount}} More</span> -->
+    </div>
+    <!-- <div class="col-12 selected-badge d-flex" *ngIf="selectedClient">
+          <div class="selected-client d-flex">
+            <span class="badge badge-pill badge-primary m-1">{{selectedClient.MASTER_CLIENT_NAME}} <span
+                class="close-icon" (click)="clearClient()">x</span></span>
+            <span class="filter-seperator" *ngIf="selectedFilters && selectedFilters.length">|</span>
+            <span *ngFor="let filter of selectedFilters; let i = index"
+              class="badge badge-pill badge-primary m-1">{{filter}} <span class="close-icon"
+                (click)="clearFilters(i)">x</span></span>
+          </div>
+          <button type="button" class="btn  btn-outline-dark search-button" (click)="searchTableData()">Search</button>
+        </div> -->
+  </div>
+  <!-- <div class="content m-3" *ngIf="selectedClient && tableData">
+        <div class="row d-flex justify-content-end my-3 mr-0">
+          <button type="button" class="btn  btn-outline-dark mr-3" (click)="openCreateTemplateModal()">Create a
+            Template</button>
+          <button type="button" class="btn  btn-outline-dark">Export to Excel</button>
+        </div>
+        <table class="table table-striped table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Protocol</th>
+              <th scope="col">Template Name</th>
+              <th scope="col">Status</th>
+              <th scope="col">Consignee</th>
+              <th scope="col">Language</th>
+              <th scope="col">Active</th>
+              <th scope="col">Protocol Specific</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let template of tableData">
+              <td>{{template.PROTOCOL}}</td>
+              <td>{{template.NAME}}</td>
+              <td>{{template.STATUS}}</td>
+              <td>{{template.USER_CATEGORY}}</td>
+              <td>{{template.LANGUAGE}}</td>
+              <td>{{template.ACTIVE}}</td>
+              <td>{{template.PROTOCOL_SPECIFIC}}</td>
+              <td>
+                <div class="btn-group">
+                  <img src="assets/edit.png" (click)="editTemplate(template.TEMPLATE_ID)">
+                  <img src="assets/trash.png" (click)="deleteTemplate(template.TEMPLATE_ID)">
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <pagination *ngIf="tableDataFullList && tableDataFullList.length > 10" [boundaryLinks]="true"
+          (pageChanged)="pageChanged($event)" [totalItems]="tableDataFullList.length" previousText="&lsaquo;"
+          nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"></pagination>
+      </div> -->
 
+</div>
