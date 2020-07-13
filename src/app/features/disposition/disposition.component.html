@@ -1,0 +1,98 @@
+<div class="disposition-page d-flex flex-wrap">
+  <div class="disposition">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Client</th>
+          <th>Protocol</th>
+          <th>Facility</th>
+          <th>PartId</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="composition">
+    <table class="table">
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+
+    <form [formGroup]="compositionForm" (ngSubmit)="submit()">
+      <div class="composition-form d-flex">
+        <div class="composition-option">
+          <input id="male" type="radio" value="store" name="type" formControlName="type">
+          <label for="male">Store</label>
+        </div>
+
+        <div class="composition-option">
+          <input id="female" type="radio" value="return" name="type" formControlName="type">
+          <label for="female">Return</label>
+        </div>
+
+        <div class="composition-option">
+          <input id="female" type="radio" value="destroy" name="type" formControlName="type">
+          <label for="female">Destroy</label>
+        </div>
+      </div>
+      <button class="btn btn-light" type="submit" [disabled]="!compositionForm.valid">Submit</button>
+    </form>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Client</th>
+          <th>Protocol</th>
+          <th>Facility</th>
+          <th>PartId</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

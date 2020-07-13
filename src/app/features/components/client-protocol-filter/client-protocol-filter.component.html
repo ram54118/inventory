@@ -1,7 +1,7 @@
 <ng-container [ngSwitch]="view">
   <div class="clients-view view d-flex flex-wrap" *ngSwitchCase="'clients'">
     <div class="client badge-view" [ngClass]="{'selected': client.isSelected}"
-      *ngFor="let client of clientsList$ | async; trackBy: clientsTrackBy" (click)="addOrRemoveClient(client)">
+      *ngFor="let client of clientsList; trackBy: clientsTrackBy" (click)="addOrRemoveClient(client)">
       {{client.MASTER_CLIENT_NAME}}
     </div>
   </div>

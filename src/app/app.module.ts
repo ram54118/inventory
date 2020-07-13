@@ -17,15 +17,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { metaReducers, reducers } from './reducers';
 import { DashboardComponent } from './features/dashboard/dashboard.component';
-import { HeaderComponent } from './shared/header/header.component';
-import { ClientProtocolFilterComponent } from './shared/client-protocol-filter/client-protocol-filter.component';
+import { DispositionComponent } from './features/disposition/disposition.component';
+import { HeaderComponent } from './features/components/header/header.component';
+import { ClientProtocolFilterComponent } from './features/components/client-protocol-filter/client-protocol-filter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     DashboardComponent,
-    ClientProtocolFilterComponent
+    ClientProtocolFilterComponent,
+    DispositionComponent
   ],
   imports: [
     BrowserAnimationsModule,

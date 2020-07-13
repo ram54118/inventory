@@ -1,8 +1,10 @@
-import { InventoryService } from './../../core/services/inventory.service';
-import { Protocol } from './../../models/protocol';
-import { Client } from './../../models/client';
+import { Client } from './../../../models/client';
+import { Protocol } from './../../../models/protocol';
+import { InventoryService } from './../../../core/services/inventory.service';
+
 import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Observable } from 'rxjs';
+import { tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-client-protocol-filter',
@@ -11,7 +13,7 @@ import { Observable } from 'rxjs';
 })
 export class ClientProtocolFilterComponent implements OnInit, OnChanges {
   @Input() view: string;
-  public clientsList$: Observable<Client[]>;
+  public clientsList: Client[];
   public protocolList$: Observable<Protocol[]>;
   private selectedClients: Client[];
   private selectedProtocols: Protocol[];
@@ -19,7 +21,7 @@ export class ClientProtocolFilterComponent implements OnInit, OnChanges {
   ngOnInit() {
     this.selectedClients = [];
     this.selectedProtocols = [];
-    this.clientsList$ = this.inventoryService.getclients();
+    this.inventoryService.getclients().pipe(tap(response => this.clientsList = response)).subscribe();
   }
 
   ngOnChanges(changes: SimpleChanges) {

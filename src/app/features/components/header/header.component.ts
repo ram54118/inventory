@@ -1,5 +1,6 @@
-import { TABLIST } from './../../constants/constants';
-import { Tab } from './../../models/tab';
+import { TABLIST } from './../../../constants/constants';
+import { Tab } from './../../../models/tab';
+
 import { OnInit, Component, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-header',

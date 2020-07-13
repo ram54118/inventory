@@ -33,63 +33,22 @@ input:focus {
   box-shadow: none !important;
 }
 
-.progress {
-  height: 8px !important;
-}
+.table {
+  background-color: $white;
+  margin: 0;
 
-.cdk-overlay-container {
-  z-index: 9999;
-}
-
-input:focus,
-input:active {
-  outline: 0 !important;
-  box-shadow: none !important;
-}
-
-button:focus {
-  outline: 0 !important;
-  box-shadow: none !important;
-}
-
-.show-error-msg {
-  color: red;
-  height: auto;
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 2s;
-  /* Internet Explorer */
-  -o-animation: fadein 2s;
-  /* Opera < 12.1 */
-  animation: fadein 2s;
-
-  ul {
-    list-style: disc;
-    margin: 0;
+  td,
+  th {
+    border: 1px solid $grey1;
+    padding: 3rem .75rem;
+    text-align: center;
   }
-}
 
-.service-error-msg {
-  color: red;
-  height: auto;
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 2s;
-  /* Internet Explorer */
-  -o-animation: fadein 2s;
-  /* Opera < 12.1 */
-  animation: fadein 2s;
-}
-
-.invalid {
-  border: 1px solid red !important;
-}
-
-.select-invalid {
-  border: 1px solid red !important;
-  border-radius: 4px
+  thead th {
+    border-bottom: 1px;
+    background: #eeeeea;
+    color: #6964b0;
+    font-weight: normal;
+    padding: 0.75rem;
+  }
 }
