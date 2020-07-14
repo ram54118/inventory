@@ -1,0 +1,31 @@
+<h3 class="heading">Heading1</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Box Code</th>
+      <th>Last Activity Date</th>
+      <th>Storage Location</th>
+      <th>Container Number</th>
+      <th>Client Container Number</th>
+      <th>Quantity</th>
+      <th>Protocol Id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let inventory of inventoryList" (click)="selectInventory(inventory)">
+      <td>{{inventory.box_code}}</td>
+      <td>{{inventory.last_activity_date}}</td>
+      <td>{{inventory.storage_location}}</td>
+      <td>{{inventory.container_number}}</td>
+      <td>{{inventory.client_container_number}}</td>
+      <td>{{inventory.quantity}}</td>
+      <td>{{inventory.protocol_id}}</td>
+    </tr>
+
+  </tbody>
+</table>
+<div class="pagination">
+  <pagination *ngIf="totalinventoryList && totalinventoryList.length > 10" [boundaryLinks]="true"
+    (pageChanged)="pageChanged($event)" [totalItems]="totalinventoryList.length" previousText="&lsaquo;"
+    nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;" [maxSize]="10"></pagination>
+</div>

@@ -1,0 +1,38 @@
+ @import './../../../../variables.scss';
+
+ .composition-block {
+   min-height: 325px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+
+   form {
+     margin: 2rem 0;
+     padding: 1rem;
+     width: 100%;
+
+     .composition-form {
+       background-color: $white;
+       padding: 1rem;
+
+       .composition-option {
+         margin-right: 2rem;
+
+         input {
+           margin-right: 1rem;
+         }
+       }
+     }
+
+     .btn {
+       margin: 1rem 0;
+     }
+   }
+
+
+ }
+
+ .info-message {
+   text-align: center;
+ }

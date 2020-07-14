@@ -1,1 +1,7 @@
-<router-outlet></router-outlet>
+<div class="page-header">
+  <p class="title">Inventory <ng-container *ngIf="subTitle$ | async as subTitle">- {{subTitle}}</ng-container>
+  </p>
+</div>
+<div class="content-view">
+  <router-outlet></router-outlet>
+</div>

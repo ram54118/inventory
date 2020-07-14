@@ -20,6 +20,8 @@ import { DashboardComponent } from './features/dashboard/dashboard.component';
 import { DispositionComponent } from './features/disposition/disposition.component';
 import { HeaderComponent } from './features/components/header/header.component';
 import { ClientProtocolFilterComponent } from './features/components/client-protocol-filter/client-protocol-filter.component';
+import { InventoryListComponent } from './features/components/inventory-list/inventory-list.component';
+import { CompositionComponent } from './features/components/composition/composition.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ClientProtocolFilterComponent } from './features/components/client-prot
     HeaderComponent,
     DashboardComponent,
     ClientProtocolFilterComponent,
-    DispositionComponent
+    DispositionComponent,
+    InventoryListComponent,
+    CompositionComponent
   ],
   imports: [
     BrowserAnimationsModule,

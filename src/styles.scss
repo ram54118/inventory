@@ -23,7 +23,6 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: $black;
-  padding: 3rem;
   box-sizing: border-box;
   background-color: $grey-light;
 }
@@ -45,10 +44,18 @@ input:focus {
   }
 
   thead th {
-    border-bottom: 1px;
-    background: #eeeeea;
-    color: #6964b0;
+    border-bottom: 1px solid $yellow1;
+    background: $grey2;
+    color: $purple;
     font-weight: normal;
     padding: 0.75rem;
   }
+}
+
+h3.heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: $blue;
+  text-align: left;
+  width: 100%;
 }

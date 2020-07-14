@@ -1,3 +1,4 @@
+import { Inventory } from './../../models/inventory';
 import { Protocol } from './../../models/protocol';
 import { catchError } from 'rxjs/operators';
 import { ServerProxyService } from './server-proxy.service';
@@ -19,6 +20,12 @@ export class InventoryService {
 
   getclients(): Observable<Client[]> {
     return this.serverProxyService.get('clients.json').pipe(catchError((error) => {
+      return of([]);
+    }));
+  }
+
+  getInventoryList(): Observable<Inventory[]> {
+    return this.serverProxyService.get('inventory.json').pipe(catchError((error) => {
       return of([]);
     }));
   }

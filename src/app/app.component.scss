@@ -1,0 +1,20 @@
+@import './../variables.scss';
+
+.page-header {
+  height: 75px;
+  display: flex;
+  background: $purple1;
+  align-items: center;
+
+  .title {
+    font-size: 2.5rem;
+    color: $grey3;
+    padding-left: 3rem;
+    font-weight: 200;
+    margin: 0;
+  }
+}
+
+.content-view {
+  padding: 3rem;
+}

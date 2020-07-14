@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import { FormGroup } from '@angular/forms';
+import { TitleService } from './../../core/services/title-service';
+import { Inventory } from './../../models/inventory';
 
 @Component({
   selector: 'app-disposition',
@@ -11,39 +13,9 @@ export class DispositionComponent implements OnInit {
   tableList: any;
   selectedRow: any;
   composedRows: any = [];
-  constructor(private fromBuilder: FormBuilder) { }
+  inventory: Inventory;
+  constructor(private titleService: TitleService) { }
   ngOnInit() {
-    this.compositionForm = new FormGroup({
-      type: new FormControl('', Validators.required)
-    });
-    this.tableList = [{
-      client: '4 SC AG',
-      protocol: '4SC-205-1-2009',
-      facility: 'Aleton',
-      partId: '1609841'
-    },
-    {
-      client: '4 SC AG1',
-      protocol: '4SC-205-1-2009',
-      facility: 'Aleton',
-      partId: '1609842'
-    },
-    {
-      client: '4 SC AG2',
-      protocol: '4SC-205-1-2009',
-      facility: 'Aleton',
-      partId: '1609843'
-    }];
-  }
-
-
-  submit() {
-    this.compositionForm.reset();
-    this.composedRows.push(this.selectedRow);
-    this.selectedRow = null;
-  }
-
-  selectRow(row) {
-    this.selectedRow = row;
+    this.titleService.setTitle('Disposition Report Mode');
   }
 }

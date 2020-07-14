@@ -1,81 +1,8 @@
 <div class="disposition-page d-flex flex-wrap">
   <div class="disposition">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Client</th>
-          <th>Protocol</th>
-          <th>Facility</th>
-          <th>PartId</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let row of tableList" (click)="selectRow(row)">
-          <td>{{row.client}}</td>
-          <td>{{row.protocol}}</td>
-          <td>{{row.facility}}</td>
-          <td>{{row.partId}}</td>
-        </tr>
-
-      </tbody>
-    </table>
+    <app-inventory-list (selectedInventory)="inventory = $event"></app-inventory-list>
   </div>
   <div class="composition">
-    <ng-container *ngIf="selectedRow; else showMessage">
-      <table class="table">
-        <tbody>
-          <tr>
-            <td>{{selectedRow.client}}</td>
-            <td>{{selectedRow.protocol}}</td>
-            <td>{{selectedRow.facility}}</td>
-            <td>{{selectedRow.partId}}</td>
-          </tr>
-
-        </tbody>
-      </table>
-
-
-
-      <form [formGroup]="compositionForm" (ngSubmit)="submit()">
-        <div class="composition-form d-flex">
-          <div class="composition-option">
-            <input id="male" type="radio" value="store" name="type" formControlName="type">
-            <label for="male">Store</label>
-          </div>
-
-          <div class="composition-option">
-            <input id="female" type="radio" value="return" name="type" formControlName="type">
-            <label for="female">Return</label>
-          </div>
-
-          <div class="composition-option">
-            <input id="female" type="radio" value="destroy" name="type" formControlName="type">
-            <label for="female">Destroy</label>
-          </div>
-        </div>
-        <button class="btn btn-light" type="submit" [disabled]="!compositionForm.valid">Submit</button>
-      </form>
-    </ng-container>
-    <ng-template #showMessage>
-      <p class="info-message">There is no selected row</p>
-    </ng-template>
-    <table class="table" *ngIf="composedRows && composedRows.length">
-      <thead>
-        <tr>
-          <th>Client</th>
-          <th>Protocol</th>
-          <th>Facility</th>
-          <th>PartId</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let row of composedRows" (click)="selectRow(row)">
-          <td>{{row.client}}</td>
-          <td>{{row.protocol}}</td>
-          <td>{{row.facility}}</td>
-          <td>{{row.partId}}</td>
-        </tr>
-      </tbody>
-    </table>
+    <app-composition [selectedInventory]="inventory"></app-composition>
   </div>
 </div>

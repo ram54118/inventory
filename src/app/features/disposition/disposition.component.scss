@@ -3,40 +3,12 @@
 :host(app-disposition) {
   .disposition-page {
     .disposition {
-      flex: 1.5;
+      flex: 1;
     }
 
     .composition {
       flex: 1;
-      background-color: $light-blue;
-      padding: 2rem;
-
-      form {
-        margin: 2rem 0;
-        padding: 1rem;
-
-        .composition-form {
-          background-color: $white;
-          padding: 1rem;
-
-          .composition-option {
-            margin-right: 2rem;
-
-            input {
-              margin-right: 1rem;
-            }
-          }
-        }
-
-        .btn {
-          margin: 1rem 0;
-        }
-      }
-
-      .info-message {
-        text-align: center;
-        color: $white;
-      }
+      margin-left: 2rem;
     }
   }
 }
