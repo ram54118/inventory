@@ -1,89 +1,67 @@
-<div class="composition-block">
-  <ng-container *ngIf="selectedInventory; else showMessage">
-    <h3 class="heading">Heading2</h3>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Box Code</th>
-          <th>Last Activity Date</th>
-          <th>Storage Location</th>
-          <th>Container Number</th>
-          <th>Client Container Number</th>
-          <th>Quantity</th>
-          <th>Protocol Id</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>{{selectedInventory.box_code}}</td>
-          <td>{{selectedInventory.last_activity_date}}</td>
-          <td>{{selectedInventory.storage_location}}</td>
-          <td>{{selectedInventory.container_number}}</td>
-          <td>{{selectedInventory.client_container_number}}</td>
-          <td>{{selectedInventory.quantity}}</td>
-          <td>{{selectedInventory.protocol_id}}</td>
-        </tr>
-
-      </tbody>
-    </table>
-    <form [formGroup]="compositionForm" (ngSubmit)="submitForm()">
-      <div class="composition-form d-flex">
-        <div class="composition-option">
-          <input id="male" type="radio" value="store" name="type" formControlName="type">
-          <label for="male">Store</label>
-        </div>
-
-        <div class="composition-option">
-          <input id="female" type="radio" value="return" name="type" formControlName="type">
-          <label for="female">Return</label>
-        </div>
-
-        <div class="composition-option">
-          <input id="female" type="radio" value="destroy" name="type" formControlName="type">
-          <label for="female">Destroy</label>
-        </div>
-      </div>
-      <button class="btn btn-primary" type="submit" [disabled]="!compositionForm.valid">Submit</button>
-    </form>
-  </ng-container>
-  <ng-template #showMessage>
-    <p class="info-message">There is no selected inventory.</p>
-  </ng-template>
+<div class="modal-header">
+  <p class="modal-title pull-left">{{title}}</p>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="close()">
+    <span aria-hidden="true">&times;</span>
+  </button>
 </div>
-<div class="composed-list">
-  <ng-container *ngIf="composedInventoryList && composedInventoryList.length; else showComposedMessage">
-    <h3 class="heading">Heading3</h3>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Box Code</th>
-          <th>Last Activity Date</th>
-          <th>Storage Location</th>
-          <th>Container Number</th>
-          <th>Client Container Number</th>
-          <th>Quantity</th>
-          <th>Protocol Id</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let inventory of composedInventoryList">
-          <td>{{inventory.box_code}}</td>
-          <td>{{inventory.last_activity_date}}</td>
-          <td>{{inventory.storage_location}}</td>
-          <td>{{inventory.container_number}}</td>
-          <td>{{inventory.client_container_number}}</td>
-          <td>{{inventory.quantity}}</td>
-          <td>{{inventory.protocol_id}}</td>
-        </tr>
-
-      </tbody>
-    </table>
-    <div class="buttons-list">
-      <button class="btn btn-primary mt-3" type="button">Button1</button>
-      <button class="btn btn-primary ml-3 mt-3" type="button">Button2</button>
+<div class="modal-body">
+  <ng-container *ngIf="composedInventoryList && composedInventoryList.length">
+    <div class="banner d-flex" *ngIf="!viewChanges; else showChanges">
+      <p class="flex-1">You have made changes to <span class="count">{{composedInventoryList.length}}</span> Object</p>
+      <button class="btn btn-success" type="button" (click)="viewChanges = true">View Changes</button>
     </div>
+    <ng-template #showChanges>
+      <div class="banner d-flex">
+        <p class="flex-1">Viewing Changes for <span class="count">{{composedInventoryList.length}}</span> Objects
+        </p>
+        <button class="btn btn-success" type="button" (click)="viewChanges = false">close</button>
+      </div>
+    </ng-template>
   </ng-container>
-  <ng-template #showComposedMessage>
-    <p class="info-message">There is no composed records.</p>
-  </ng-template>
+  <div class="composition-container d-flex flex-column">
+    <div class="composition-table">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Box Code</th>
+            <th>Quantity</th>
+            <th>Protocol Id</th>
+            <th>Select</th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngIf="!viewChanges; else showChanges">
+            <tr *ngFor="let inventory of selectedInventoryList" [ngClass]="{select: inventory.composedVal}">
+              <td>{{inventory.box_code}}</td>
+              <td>{{inventory.quantity}}</td>
+              <td>{{inventory.protocol_id}}</td>
+              <td>
+                <select class="form-control" (change)="selectComposition($event, inventory)">
+                  <option value="" selected disabled>Please select</option>
+                  <option value="store">Store</option>
+                  <option value="return">Return</option>
+                  <option value="destroy">Destroy</option>
+                </select>
+              </td>
+            </tr>
+          </ng-container>
+          <ng-template #showChanges>
+            <tr *ngFor="let inventory of composedInventoryList" [ngClass]="{select: inventory.composedVal}">
+              <td>{{inventory.box_code}}</td>
+              <td>{{inventory.quantity}}</td>
+              <td>{{inventory.protocol_id}}</td>
+              <td>
+                {{inventory.composedVal}}
+              </td>
+            </tr>
+          </ng-template>
+        </tbody>
+      </table>
+    </div>
+    <div class="action-buttons d-flex justify-content-end mt-3">
+      <button class="btn btn-primary mr-3" type="button" (click)="close()">Cancel</button>
+      <button class="btn btn-primary" [disabled]="!composedInventoryList || !composedInventoryList.length" type="button"
+        (click)="close()">Save</button>
+    </div>
+  </div>
 </div>

@@ -27,6 +27,10 @@ body {
   background-color: $grey-light;
 }
 
+p {
+  margin: 0 !important;
+}
+
 button:focus,
 input:focus {
   box-shadow: none !important;
@@ -39,7 +43,7 @@ input:focus {
   td,
   th {
     border: 1px solid $grey1;
-    padding: 3rem .75rem;
+    padding: 1.5rem .75rem;
     text-align: center;
   }
 
@@ -58,4 +62,14 @@ h3.heading {
   color: $blue;
   text-align: left;
   width: 100%;
+}
+
+.btn {
+  font-size: 1.4rem;
+}
+
+.modal-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: $blue;
 }

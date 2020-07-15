@@ -6,33 +6,54 @@
    align-items: center;
    flex-direction: column;
    justify-content: center;
+ }
 
-   form {
-     margin: 2rem 0;
+
+ select {
+   width: 100%;
+ }
+
+ .modal-body {
+   padding: 0;
+
+   .banner {
+     background: $green-text;
+     color: $light-green;
      padding: 1rem;
-     width: 100%;
+     font-weight: 500;
+     border-bottom: 1px solid $green1;
+     align-items: center;
 
-     .composition-form {
-       background-color: $white;
-       padding: 1rem;
+     p {
+       flex: 1;
+       margin: 0;
 
-       .composition-option {
-         margin-right: 2rem;
-
-         input {
-           margin-right: 1rem;
-         }
+       .count {
+         background: $green-shine;
+         color: $white;
+         padding: 0.25rem 1.5rem;
+         border-radius: 5rem;
        }
      }
 
      .btn {
-       margin: 1rem 0;
+       background: $green-shine;
+       border-color: $green1;
      }
    }
 
+   .composition-container {
+     padding: 1rem;
 
- }
+     .composition-table {
+       max-height: 50rem;
+       overflow-y: auto;
+     }
 
- .info-message {
-   text-align: center;
+     tbody {
+       tr.select {
+         background-color: $green-text;
+       }
+     }
+   }
  }

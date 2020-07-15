@@ -60,5 +60,6 @@ import { CompositionComponent } from './features/components/composition/composit
   ],
   providers: [],
   bootstrap: [AppComponent],
+  entryComponents: [CompositionComponent]
 })
 export class AppModule { }

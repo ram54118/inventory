@@ -1,14 +1,3 @@
-@import './../../../variables.scss';
-
 :host(app-disposition) {
-  .disposition-page {
-    .disposition {
-      flex: 1;
-    }
-
-    .composition {
-      flex: 1;
-      margin-left: 2rem;
-    }
-  }
+  .disposition-page {}
 }

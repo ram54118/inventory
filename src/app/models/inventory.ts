@@ -6,4 +6,6 @@ export interface Inventory {
   client_container_number: string;
   quantity: number;
   protocol_id: number;
+  isSelect?: boolean;
+  composedVal?: string;
 }

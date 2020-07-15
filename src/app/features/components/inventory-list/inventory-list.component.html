@@ -1,7 +1,11 @@
-<h3 class="heading">Heading1</h3>
+<div class="action-buttons d-flex justify-content-end">
+  <button class="btn btn-primary" type="button" (click)="editInventory()"
+    [disabled]="!selectedInventoryList || !selectedInventoryList.length">Edit</button>
+</div>
 <table class="table">
   <thead>
     <tr>
+      <th></th>
       <th>Box Code</th>
       <th>Last Activity Date</th>
       <th>Storage Location</th>
@@ -12,7 +16,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let inventory of inventoryList" (click)="selectInventory(inventory)">
+    <tr *ngFor="let inventory of inventoryList">
+      <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
       <td>{{inventory.box_code}}</td>
       <td>{{inventory.last_activity_date}}</td>
       <td>{{inventory.storage_location}}</td>

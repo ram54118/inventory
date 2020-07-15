@@ -1,8 +1,3 @@
-<div class="disposition-page d-flex flex-wrap">
-  <div class="disposition">
-    <app-inventory-list (selectedInventory)="inventory = $event"></app-inventory-list>
-  </div>
-  <div class="composition">
-    <app-composition [selectedInventory]="inventory"></app-composition>
-  </div>
+<div class="disposition-page">
+  <app-inventory-list></app-inventory-list>
 </div>
