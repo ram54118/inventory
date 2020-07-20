@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { TitleService } from './../../core/services/title-service';
 
 @Component({
@@ -6,10 +6,12 @@ import { TitleService } from './../../core/services/title-service';
   templateUrl: './disposition.component.html',
   styleUrls: ['./disposition.component.scss']
 })
-export class DispositionComponent implements OnInit {
+export class DispositionComponent implements OnInit, AfterViewInit {
   constructor(private titleService: TitleService) {
   }
   ngOnInit() {
+  }
+  ngAfterViewInit() {
     this.titleService.setTitle('Disposition Report Mode');
   }
 }

@@ -1,7 +1,42 @@
-<div class="action-buttons d-flex justify-content-end">
-  <button class="btn btn-primary" type="button" (click)="editInventory()"
-    [disabled]="!selectedInventoryList || !selectedInventoryList.length">Edit</button>
+<div class="actions-container d-flex ">
+  <div class="actions-block d-flex">
+    <div class="store box d-flex flex-column">
+      <p class="type">STORE ({{storesList.length}})</p>
+      <div class="btns-list d-flex">
+        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
+          (click)="act('STORE')">Act</button>
+        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary r-btn" type="button"
+          (click)="act('STORE')">Un-Act</button>
+      </div>
+    </div>
+    <div class="return box d-flex flex-column">
+      <p class="type">RETURN ({{returnsList.length}})</p>
+      <div class="btns-list d-flex">
+        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
+          (click)="act('RETURN')">Act</button>
+        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary r-btn" type="button"
+          (click)="act('RETURN')">Un-Act</button>
+      </div>
+    </div>
+    <div class="destroy box d-flex flex-column">
+      <p class="type">DESTROY ({{destroyList.length}})</p>
+      <div class="btns-list d-flex">
+        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
+          (click)="act('DESTROY')">Act</button>
+        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary r-btn" type="button"
+          (click)="act('DESTROY')">Un-Act</button>
+      </div>
+    </div>
+  </div>
+  <div class="reset">
+    <button class="btn btn-primary" type="button" (click)="reset()">Reset</button>
+  </div>
 </div>
+
+<!-- <div class="action-buttons d-flex justify-content-end">
+  <button class="btn btn-primary" type="button" (click)="editInventory()"
+    [disabled]="!selectedInventoryList.length">Edit</button>
+</div> -->
 <table class="table">
   <thead>
     <tr>

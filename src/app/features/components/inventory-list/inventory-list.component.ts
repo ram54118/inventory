@@ -14,6 +14,9 @@ export class InventoryListComponent implements OnInit {
   public inventoryList: Inventory[];
   public totalinventoryList: Inventory[];
   public selectedInventoryList: Inventory[] = [];
+  public storesList: number[] = [];
+  public returnsList: number[] = [];
+  public destroyList: number[] = [];
   constructor(private inventoryService: InventoryService, private modalService: BsModalService) { }
   ngOnInit() {
 
@@ -51,5 +54,59 @@ export class InventoryListComponent implements OnInit {
       if (response) {
       }
     });
+  }
+
+  reset() {
+    this.storesList = [];
+    this.returnsList = [];
+    this.destroyList = [];
+  }
+
+  act(type: string) {
+    const list = this.selectedInventoryList.map(inventory => inventory.box_code);
+    switch (type) {
+      case ('STORE'):
+        Array.prototype.push.apply(this.storesList, list);
+        list.forEach(id => {
+          const returnIndex = this.returnsList.findIndex(incomingId => incomingId === id);
+          if (returnIndex >= 0) {
+            this.returnsList.splice(returnIndex, 1);
+          }
+
+          const destroyIndex = this.destroyList.findIndex(incomingId => incomingId === id);
+          if (destroyIndex >= 0) {
+            this.destroyList.splice(destroyIndex, 1);
+          }
+        });
+        break;
+      case ('RETURN'):
+        Array.prototype.push.apply(this.returnsList, list);
+        list.forEach(id => {
+          const storesIndex = this.storesList.findIndex(incomingId => incomingId === id);
+          if (storesIndex >= 0) {
+            this.storesList.splice(storesIndex, 1);
+          }
+
+          const destroyIndex = this.destroyList.findIndex(incomingId => incomingId === id);
+          if (destroyIndex >= 0) {
+            this.destroyList.splice(destroyIndex, 1);
+          }
+        });
+        break;
+      case ('DESTROY'):
+        Array.prototype.push.apply(this.destroyList, list);
+        list.forEach(id => {
+          const storesIndex = this.storesList.findIndex(incomingId => incomingId === id);
+          if (storesIndex >= 0) {
+            this.storesList.splice(storesIndex, 1);
+          }
+
+          const destroyIndex = this.destroyList.findIndex(incomingId => incomingId === id);
+          if (destroyIndex >= 0) {
+            this.destroyList.splice(destroyIndex, 1);
+          }
+        });
+        break;
+    }
   }
 }

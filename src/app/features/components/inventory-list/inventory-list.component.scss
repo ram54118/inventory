@@ -11,3 +11,35 @@
     font-size: 1.4rem;
   }
 }
+
+.actions-container {
+  margin-bottom: 2rem;
+  align-items: center;
+
+  .actions-block {
+    .box {
+      border: 1px solid #2a2c67;
+      height: 100px;
+      width: 200px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+
+      &.return {
+        margin: 0 5rem;
+      }
+
+      .btns-list {
+        margin-top: 1rem;
+
+        .l-btn {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .reset {
+    margin-left: 3rem;
+  }
+}
