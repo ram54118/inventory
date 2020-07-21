@@ -5,8 +5,8 @@
       <div class="btns-list d-flex">
         <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
           (click)="act('STORE')">Act</button>
-        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary r-btn" type="button"
-          (click)="act('STORE')">Un-Act</button>
+        <button [disabled]="!storesList.length" class="btn btn-primary r-btn" type="button"
+          (click)="unAct('STORE')">Un-Act</button>
       </div>
     </div>
     <div class="return box d-flex flex-column">
@@ -14,8 +14,8 @@
       <div class="btns-list d-flex">
         <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
           (click)="act('RETURN')">Act</button>
-        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary r-btn" type="button"
-          (click)="act('RETURN')">Un-Act</button>
+        <button [disabled]="!returnsList.length" class="btn btn-primary r-btn" type="button"
+          (click)="unAct('RETURN')">Un-Act</button>
       </div>
     </div>
     <div class="destroy box d-flex flex-column">
@@ -23,8 +23,8 @@
       <div class="btns-list d-flex">
         <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
           (click)="act('DESTROY')">Act</button>
-        <button [disabled]="!selectedInventoryList.length" class="btn btn-primary r-btn" type="button"
-          (click)="act('DESTROY')">Un-Act</button>
+        <button [disabled]="!destroyList.length" class="btn btn-primary r-btn" type="button"
+          (click)="unAct('DESTROY')">Un-Act</button>
       </div>
     </div>
   </div>

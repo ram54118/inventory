@@ -109,4 +109,34 @@ export class InventoryListComponent implements OnInit {
         break;
     }
   }
+
+  unAct(type: string) {
+    const list = this.selectedInventoryList.map(inventory => inventory.box_code);
+    switch (type) {
+      case ('STORE'):
+        list.forEach(id => {
+          const returnIndex = this.storesList.findIndex(incomingId => incomingId === id);
+          if (returnIndex >= 0) {
+            this.storesList.splice(returnIndex, 1);
+          }
+        });
+        break;
+      case ('RETURN'):
+        list.forEach(id => {
+          const storesIndex = this.returnsList.findIndex(incomingId => incomingId === id);
+          if (storesIndex >= 0) {
+            this.returnsList.splice(storesIndex, 1);
+          }
+        });
+        break;
+      case ('DESTROY'):
+        list.forEach(id => {
+          const storesIndex = this.destroyList.findIndex(incomingId => incomingId === id);
+          if (storesIndex >= 0) {
+            this.destroyList.splice(storesIndex, 1);
+          }
+        });
+        break;
+    }
+  }
 }
