@@ -5,8 +5,10 @@
       <div class="btns-list d-flex">
         <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
           (click)="act('STORE')">Act</button>
-        <button [disabled]="!storesList.length" class="btn btn-primary r-btn" type="button"
+        <button [disabled]="!storesList.length" class="btn btn-primary m-btn" type="button"
           (click)="unAct('STORE')">Un-Act</button>
+        <button [disabled]="!storesList.length" class="btn btn-primary r-btn" type="button"
+          (click)="showOnlyTableData('STORE')">Show Only</button>
       </div>
     </div>
     <div class="return box d-flex flex-column">
@@ -14,8 +16,10 @@
       <div class="btns-list d-flex">
         <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
           (click)="act('RETURN')">Act</button>
-        <button [disabled]="!returnsList.length" class="btn btn-primary r-btn" type="button"
+        <button [disabled]="!returnsList.length" class="btn btn-primary m-btn" type="button"
           (click)="unAct('RETURN')">Un-Act</button>
+        <button [disabled]="!storesList.length" class="btn btn-primary r-btn" type="button"
+          (click)="showOnlyTableData('RETURN')">Show Only</button>
       </div>
     </div>
     <div class="destroy box d-flex flex-column">
@@ -23,8 +27,10 @@
       <div class="btns-list d-flex">
         <button [disabled]="!selectedInventoryList.length" class="btn btn-primary l-btn" type="button"
           (click)="act('DESTROY')">Act</button>
-        <button [disabled]="!destroyList.length" class="btn btn-primary r-btn" type="button"
+        <button [disabled]="!destroyList.length" class="btn btn-primary m-btn" type="button"
           (click)="unAct('DESTROY')">Un-Act</button>
+        <button [disabled]="!storesList.length" class="btn btn-primary r-btn" type="button"
+          (click)="showOnlyTableData('DESTROY')">Show Only</button>
       </div>
     </div>
   </div>
@@ -37,10 +43,22 @@
   <button class="btn btn-primary" type="button" (click)="editInventory()"
     [disabled]="!selectedInventoryList.length">Edit</button>
 </div> -->
+<div class="filters d-flex">
+  <div class="form-group mr-4 filter">
+    <label for="sel1">Columns</label>
+    <select class="form-control" [(ngModel)]="selectedColumn">
+      <option *ngFor="let option of columnsList" [value]="option.value">{{option.label}}</option>
+    </select>
+  </div>
+  <div class="form-group filter">
+    <label for="usr">Name:</label>
+    <input type="text" [disabled]="!selectedColumn" class="form-control" #searchFilter>
+  </div>
+</div>
 <table class="table">
   <thead>
     <tr>
-      <th></th>
+      <th><input type="checkbox" (change)="selectOrUnSelectAll($event)" /></th>
       <th>Box Code</th>
       <th>Last Activity Date</th>
       <th>Storage Location</th>
@@ -48,6 +66,7 @@
       <th>Client Container Number</th>
       <th>Quantity</th>
       <th>Protocol Id</th>
+
     </tr>
   </thead>
   <tbody>
