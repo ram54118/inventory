@@ -21,6 +21,9 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   public columnsList: { label: string, value: string }[];
   public selectedColumn: string;
   private subscriptions$ = new Subject<void>();
+  public paginationRecords: Inventory[];
+  public selectAll = false;
+  public searchValue: string;
   @ViewChild('searchFilter') searchFilter;
   constructor(private inventoryService: InventoryService, private modalService: BsModalService) { }
   ngOnInit() {
@@ -56,6 +59,7 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     ];
     this.inventoryService.getInventoryList().pipe(tap(list => {
       this.totalinventoryList = list;
+      this.paginationRecords = list;
       this.inventoryList = list.slice(0, 10);
     })).subscribe();
   }
@@ -72,9 +76,13 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   filterTableFromValue(value: string) {
-    this.inventoryList = this.totalinventoryList.filter(inventory => {
-      return String(inventory[this.selectedColumn]).indexOf(value) >= 0;
-    });
+    if (value) {
+      this.inventoryList = this.paginationRecords.filter(inventory => {
+        return String(inventory[this.selectedColumn]).indexOf(value) >= 0;
+      });
+    } else {
+      this.inventoryList = this.paginationRecords;
+    }
   }
 
   selectInventory(inventory: Inventory) {
@@ -96,6 +104,7 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     }
   }
   public pageChanged(selectedPage) {
+    this.selectAll = false;
     this.inventoryList = this.totalinventoryList.slice((selectedPage.page - 1) * 10, selectedPage.page * 10);
   }
 
@@ -120,7 +129,19 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     this.storesList = [];
     this.returnsList = [];
     this.destroyList = [];
-    this.inventoryList = this.totalinventoryList;
+    this.selectedColumn = null;
+    this.searchValue = null;
+    // this.inventoryList = this.paginationRecords;
+  }
+
+  showAll() {
+    this.inventoryList = this.totalinventoryList.slice(0, 10);
+    this.paginationRecords = this.totalinventoryList;
+  }
+
+  showDispositionedRecords() {
+    this.paginationRecords = [...this.storesList, ...this.returnsList, ...this.destroyList];
+    this.inventoryList = this.paginationRecords.slice(0, 10);
   }
 
   act(type: string) {
@@ -203,13 +224,16 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   showOnlyTableData(type: string) {
     switch (type) {
       case ('STORE'):
-        this.inventoryList = this.storesList;
+        this.paginationRecords = this.storesList;
+        this.inventoryList = this.paginationRecords.slice(0, 10);
         break;
       case ('RETURN'):
-        this.inventoryList = this.returnsList;
+        this.paginationRecords = this.returnsList;
+        this.inventoryList = this.paginationRecords.slice(0, 10);
         break;
       case ('DESTROY'):
-        this.inventoryList = this.destroyList;
+        this.paginationRecords = this.destroyList;
+        this.inventoryList = this.paginationRecords.slice(0, 10);
         break;
     }
   }

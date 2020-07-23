@@ -1,4 +1,4 @@
-<div class="actions-container d-flex ">
+<div class="actions-container d-flex justify-content-center">
   <div class="actions-block d-flex">
     <div class="store box d-flex flex-column">
       <p class="type">STORE ({{storesList.length}})</p>
@@ -34,15 +34,8 @@
       </div>
     </div>
   </div>
-  <div class="reset">
-    <button class="btn btn-primary" type="button" (click)="reset()">Reset</button>
-  </div>
-</div>
 
-<!-- <div class="action-buttons d-flex justify-content-end">
-  <button class="btn btn-primary" type="button" (click)="editInventory()"
-    [disabled]="!selectedInventoryList.length">Edit</button>
-</div> -->
+</div>
 <div class="filters d-flex">
   <div class="form-group mr-4 filter">
     <label for="sel1">Columns</label>
@@ -52,13 +45,18 @@
   </div>
   <div class="form-group filter">
     <label for="usr">Name:</label>
-    <input type="text" [disabled]="!selectedColumn" class="form-control" #searchFilter>
+    <input type="text" [disabled]="!selectedColumn" [(ngModel)]="searchValue" class="form-control" #searchFilter>
+  </div>
+  <div class="action-links d-flex">
+    <a class="action-link" (click)="reset()">Reset</a>
+    <a class="action-link" (click)="showAll()">Show All</a>
+    <a class="action-link" (click)="showDispositionedRecords()">Show Dispositioned Records</a>
   </div>
 </div>
 <table class="table">
   <thead>
     <tr>
-      <th><input type="checkbox" (change)="selectOrUnSelectAll($event)" /></th>
+      <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
       <th>Box Code</th>
       <th>Last Activity Date</th>
       <th>Storage Location</th>
@@ -84,7 +82,7 @@
   </tbody>
 </table>
 <div class="pagination">
-  <pagination *ngIf="totalinventoryList && totalinventoryList.length > 10" [boundaryLinks]="true"
-    (pageChanged)="pageChanged($event)" [totalItems]="totalinventoryList.length" previousText="&lsaquo;"
+  <pagination *ngIf="paginationRecords && paginationRecords.length > 10" [boundaryLinks]="true"
+    (pageChanged)="pageChanged($event)" [totalItems]="paginationRecords.length" previousText="&lsaquo;"
     nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;" [maxSize]="10"></pagination>
 </div>
