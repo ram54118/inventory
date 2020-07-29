@@ -20,13 +20,30 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   public destroyList: Inventory[] = [];
   public columnsList: { label: string, value: string }[];
   public selectedColumn: string;
+  public selectedDisposition: string;
   private subscriptions$ = new Subject<void>();
   public paginationRecords: Inventory[];
   public selectAll = false;
   public searchValue: string;
+  public isColumnsInLockState: boolean;
+  public dispositionTypes;
   @ViewChild('searchFilter') searchFilter;
   constructor(private inventoryService: InventoryService, private modalService: BsModalService) { }
   ngOnInit() {
+    this.dispositionTypes = [
+      {
+        label: 'RETURN',
+        value: 'return'
+      },
+      {
+        label: 'Destroy',
+        value: 'destroy'
+      },
+      {
+        label: 'All Others',
+        value: 'allOthers'
+      }
+    ];
     this.columnsList = [
       {
         label: 'Box Code',
@@ -103,6 +120,7 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
       this.selectedInventoryList = [];
     }
   }
+
   public pageChanged(selectedPage) {
     this.selectAll = false;
     this.inventoryList = this.totalinventoryList.slice((selectedPage.page - 1) * 10, selectedPage.page * 10);
@@ -131,7 +149,6 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     this.destroyList = [];
     this.selectedColumn = null;
     this.searchValue = null;
-    // this.inventoryList = this.paginationRecords;
   }
 
   showAll() {
@@ -145,10 +162,15 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   act(type: string) {
+    if (type) {
     switch (type) {
-      case ('STORE'):
-        Array.prototype.push.apply(this.storesList, this.selectedInventoryList);
+      case ('allOthers'):
         this.selectedInventoryList.forEach(inventory => {
+          const storeIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+          if (storeIndex === -1) {
+            this.storesList.push(inventory);
+          }
+
           const returnIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
           if (returnIndex >= 0) {
             this.returnsList.splice(returnIndex, 1);
@@ -160,9 +182,13 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
           }
         });
         break;
-      case ('RETURN'):
-        Array.prototype.push.apply(this.returnsList, this.selectedInventoryList);
+      case ('return'):
         this.selectedInventoryList.forEach(inventory => {
+          const returnIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+          if (returnIndex === -1) {
+            this.returnsList.push(inventory);
+          }
+
           const storesIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
           if (storesIndex >= 0) {
             this.storesList.splice(storesIndex, 1);
@@ -174,21 +200,25 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
           }
         });
         break;
-      case ('DESTROY'):
-        Array.prototype.push.apply(this.destroyList, this.selectedInventoryList);
+      case ('destroy'):
         this.selectedInventoryList.forEach(inventory => {
+          const destroyIndex = this.destroyList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+          if (destroyIndex === -1) {
+            this.destroyList.push(inventory);
+          }
           const storesIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
           if (storesIndex >= 0) {
             this.storesList.splice(storesIndex, 1);
           }
 
-          const destroyIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (destroyIndex >= 0) {
-            this.returnsList.splice(destroyIndex, 1);
+          const retunsIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+          if (retunsIndex >= 0) {
+            this.returnsList.splice(retunsIndex, 1);
           }
         });
         break;
     }
+  }
   }
 
   unAct(type: string) {
@@ -221,6 +251,10 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     }
   }
 
+  onDispositionChange(){
+    this.act(this.selectedDisposition);
+  }
+
   showOnlyTableData(type: string) {
     switch (type) {
       case ('STORE'):
@@ -244,5 +278,9 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   ngOnDestroy() {
     this.subscriptions$.next();
     this.subscriptions$.complete();
+  }
+
+  lockOrUnLockColumn(column) {
+
   }
 }

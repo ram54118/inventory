@@ -51,6 +51,10 @@
      width: 25rem;
    }
 
+   .lock {
+     margin-left: 3rem;
+   }
+
    .action-links {
      align-items: center;
      flex: 1;
@@ -66,4 +70,8 @@
        }
      }
    }
+ }
+
+ .lock {
+   cursor: pointer;
  }
