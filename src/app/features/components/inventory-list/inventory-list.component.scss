@@ -75,3 +75,12 @@
  .lock {
    cursor: pointer;
  }
+
+ .column-locked {
+   background-color: grey;
+   position: sticky;
+ }
+
+ .clickable {
+   cursor: pointer;
+ }

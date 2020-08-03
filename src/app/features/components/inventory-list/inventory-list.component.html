@@ -1,14 +1,14 @@
 <div class="actions-container d-flex justify-content-center">
   <div class="actions-block d-flex flex-wrap">
-    <div class="store box d-flex flex-column">
+    <div class="store box d-flex flex-column clickable" (click)="storesList.length && showOnlyTableData('STORE')">
       <p class="type">All Others</p>
       <p class="type">{{storesList.length}}</p>
     </div>
-    <div class="return box d-flex flex-column">
+    <div class="return box d-flex flex-column clickable" (click)="returnsList.length && showOnlyTableData('RETURN')">
       <p class="type">RETURN</p>
       <p class="type">{{returnsList.length}}</p>
     </div>
-    <div class="destroy box d-flex flex-column">
+    <div class="destroy box d-flex flex-column clickable" (click)="destroyList.length && showOnlyTableData('DESTROY')">
       <p class="type">DESTROY</p>
       <p class="type">{{destroyList.length}}</p>
     </div>
@@ -16,6 +16,12 @@
 
 </div>
 <div class="filters d-flex flex-wrap">
+  <div class="form-group filter mr-2">
+    <label for="sel1">Records per screen</label>
+    <select class="form-control" [(ngModel)]="recordsPerScreen" (change)="tableRecordsChanged()">
+      <option *ngFor="let option of recordsPerScreenOptions" [value]="option">{{option}}</option>
+    </select>
+  </div>
   <div class="form-group filter">
     <label for="sel1">Columns</label>
     <select class="form-control" [(ngModel)]="selectedColumn">
@@ -43,30 +49,74 @@
     <a class="action-link" (click)="showDispositionedRecords()">Show Dispositioned Records</a>
   </div>
 </div>
-<table class="table">
-  <thead>
-    <tr>
-      <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
-      <th *ngFor="let column of columnsList" [ngClass]="{'lock': isColumnsInLockState}"
-        (click)="lockOrUnLockColumn(column)">{{column.label}}</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let inventory of inventoryList">
-      <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
-      <td>{{inventory.box_code}}</td>
-      <td>{{inventory.last_activity_date}}</td>
-      <td>{{inventory.storage_location}}</td>
-      <td>{{inventory.container_number}}</td>
-      <td>{{inventory.client_container_number}}</td>
-      <td>{{inventory.quantity}}</td>
-      <td>{{inventory.protocol_id}}</td>
-    </tr>
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
+        <th *ngFor="let column of columnsList" class="clickable"
+          [ngClass]="{'lock': isColumnsInLockState, 'column-locked': this.isColumnLocked(column.value)}"
+          (click)="sortColumn(column)">{{column.label}}</th>
 
-  </tbody>
-</table>
+        <!-- <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
+        <th *ngFor="let column of columnsList">
+          {{column.label}}</th>
+
+        <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
+        <th *ngFor="let column of columnsList">
+          {{column.label}}</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let inventory of inventoryList">
+        <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
+        <td [ngClass]="{'column-locked': this.isColumnLocked('box_code')}">
+          {{inventory.box_code}}</td>
+        <td [ngClass]="{'column-locked': this.isColumnLocked('last_activity_date')}">
+          {{inventory.last_activity_date}}</td>
+        <td [ngClass]="{'column-locked': this.isColumnLocked('storage_location')}">
+          {{inventory.storage_location}}</td>
+        <td [ngClass]="{'column-locked': this.isColumnLocked('container_number')}">{{inventory.container_number}}</td>
+        <td [ngClass]="{'column-locked': this.isColumnLocked('client_container_number')}">
+          {{inventory.client_container_number}}
+        </td>
+        <td [ngClass]="{'column-locked': this.isColumnLocked('quantity')}">{{inventory.quantity}}</td>
+        <td [ngClass]="{'column-locked': this.isColumnLocked('protocol_id')}">{{inventory.protocol_id}}</td>
+
+        <!-- <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
+        <td>
+          {{inventory.box_code}}</td>
+        <td>
+          {{inventory.last_activity_date}}</td>
+        <td>
+          {{inventory.storage_location}}</td>
+        <td>{{inventory.container_number}}</td>
+        <td>
+          {{inventory.client_container_number}}
+        </td>
+        <td>{{inventory.quantity}}</td>
+        <td>{{inventory.protocol_id}}</td>
+
+        <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
+        <td>
+          {{inventory.box_code}}</td>
+        <td>
+          {{inventory.last_activity_date}}</td>
+        <td>
+          {{inventory.storage_location}}</td>
+        <td>{{inventory.container_number}}</td>
+        <td>
+          {{inventory.client_container_number}}
+        </td>
+        <td>{{inventory.quantity}}</td>
+        <td>{{inventory.protocol_id}}</td> -->
+      </tr>
+
+    </tbody>
+  </table>
+</div>
 <div class="pagination">
-  <pagination *ngIf="paginationRecords && paginationRecords.length > 10" [boundaryLinks]="true"
-    (pageChanged)="pageChanged($event)" [totalItems]="paginationRecords.length" previousText="&lsaquo;"
-    nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;" [maxSize]="10"></pagination>
+  <pagination *ngIf="paginationRecords && paginationRecords.length > recordsPerScreen" [boundaryLinks]="true"
+    [itemsPerPage]="recordsPerScreen" (pageChanged)="pageChanged($event)" [totalItems]="paginationRecords.length"
+    previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;" [maxSize]="5"></pagination>
 </div>

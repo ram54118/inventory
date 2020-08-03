@@ -18,7 +18,7 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   public storesList: Inventory[] = [];
   public returnsList: Inventory[] = [];
   public destroyList: Inventory[] = [];
-  public columnsList: { label: string, value: string }[];
+  public columnsList: { label: string, value: string, sort?: boolean }[];
   public selectedColumn: string;
   public selectedDisposition: string;
   private subscriptions$ = new Subject<void>();
@@ -27,6 +27,9 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   public searchValue: string;
   public isColumnsInLockState: boolean;
   public dispositionTypes;
+  public recordsPerScreenOptions = [5, 10, 15, 20, 25, 30];
+  public recordsPerScreen = 10;
+  private lockedColumns: string[] = [];
   @ViewChild('searchFilter') searchFilter;
   constructor(private inventoryService: InventoryService, private modalService: BsModalService) { }
   ngOnInit() {
@@ -47,7 +50,7 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     this.columnsList = [
       {
         label: 'Box Code',
-        value: 'box_code'
+        value: 'box_code',
       },
       {
         label: 'Last Activity Date',
@@ -77,8 +80,12 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     this.inventoryService.getInventoryList().pipe(tap(list => {
       this.totalinventoryList = list;
       this.paginationRecords = list;
-      this.inventoryList = list.slice(0, 10);
+      this.inventoryList = list.slice(0, this.recordsPerScreen);
     })).subscribe();
+  }
+
+  tableRecordsChanged() {
+    this.inventoryList = this.paginationRecords.slice(0, this.recordsPerScreen);
   }
 
   ngAfterViewInit() {
@@ -123,7 +130,8 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
 
   public pageChanged(selectedPage) {
     this.selectAll = false;
-    this.inventoryList = this.totalinventoryList.slice((selectedPage.page - 1) * 10, selectedPage.page * 10);
+    this.inventoryList = this.totalinventoryList.slice((selectedPage.page - 1) * this.recordsPerScreen,
+      selectedPage.page * this.recordsPerScreen);
   }
 
   public editInventory() {
@@ -152,73 +160,73 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   showAll() {
-    this.inventoryList = this.totalinventoryList.slice(0, 10);
+    this.inventoryList = this.totalinventoryList.slice(0, this.recordsPerScreen);
     this.paginationRecords = this.totalinventoryList;
   }
 
   showDispositionedRecords() {
     this.paginationRecords = [...this.storesList, ...this.returnsList, ...this.destroyList];
-    this.inventoryList = this.paginationRecords.slice(0, 10);
+    this.inventoryList = this.paginationRecords.slice(0, this.recordsPerScreen);
   }
 
   act(type: string) {
     if (type) {
-    switch (type) {
-      case ('allOthers'):
-        this.selectedInventoryList.forEach(inventory => {
-          const storeIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (storeIndex === -1) {
-            this.storesList.push(inventory);
-          }
+      switch (type) {
+        case ('allOthers'):
+          this.selectedInventoryList.forEach(inventory => {
+            const storeIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (storeIndex === -1) {
+              this.storesList.push(inventory);
+            }
 
-          const returnIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (returnIndex >= 0) {
-            this.returnsList.splice(returnIndex, 1);
-          }
+            const returnIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (returnIndex >= 0) {
+              this.returnsList.splice(returnIndex, 1);
+            }
 
-          const destroyIndex = this.destroyList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (destroyIndex >= 0) {
-            this.destroyList.splice(destroyIndex, 1);
-          }
-        });
-        break;
-      case ('return'):
-        this.selectedInventoryList.forEach(inventory => {
-          const returnIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (returnIndex === -1) {
-            this.returnsList.push(inventory);
-          }
+            const destroyIndex = this.destroyList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (destroyIndex >= 0) {
+              this.destroyList.splice(destroyIndex, 1);
+            }
+          });
+          break;
+        case ('return'):
+          this.selectedInventoryList.forEach(inventory => {
+            const returnIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (returnIndex === -1) {
+              this.returnsList.push(inventory);
+            }
 
-          const storesIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (storesIndex >= 0) {
-            this.storesList.splice(storesIndex, 1);
-          }
+            const storesIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (storesIndex >= 0) {
+              this.storesList.splice(storesIndex, 1);
+            }
 
-          const destroyIndex = this.destroyList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (destroyIndex >= 0) {
-            this.destroyList.splice(destroyIndex, 1);
-          }
-        });
-        break;
-      case ('destroy'):
-        this.selectedInventoryList.forEach(inventory => {
-          const destroyIndex = this.destroyList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (destroyIndex === -1) {
-            this.destroyList.push(inventory);
-          }
-          const storesIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (storesIndex >= 0) {
-            this.storesList.splice(storesIndex, 1);
-          }
+            const destroyIndex = this.destroyList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (destroyIndex >= 0) {
+              this.destroyList.splice(destroyIndex, 1);
+            }
+          });
+          break;
+        case ('destroy'):
+          this.selectedInventoryList.forEach(inventory => {
+            const destroyIndex = this.destroyList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (destroyIndex === -1) {
+              this.destroyList.push(inventory);
+            }
+            const storesIndex = this.storesList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (storesIndex >= 0) {
+              this.storesList.splice(storesIndex, 1);
+            }
 
-          const retunsIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
-          if (retunsIndex >= 0) {
-            this.returnsList.splice(retunsIndex, 1);
-          }
-        });
-        break;
+            const retunsIndex = this.returnsList.findIndex(inventoryFromList => inventoryFromList.box_code === inventory.box_code);
+            if (retunsIndex >= 0) {
+              this.returnsList.splice(retunsIndex, 1);
+            }
+          });
+          break;
+      }
     }
-  }
   }
 
   unAct(type: string) {
@@ -251,7 +259,7 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     }
   }
 
-  onDispositionChange(){
+  onDispositionChange() {
     this.act(this.selectedDisposition);
   }
 
@@ -259,15 +267,15 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     switch (type) {
       case ('STORE'):
         this.paginationRecords = this.storesList;
-        this.inventoryList = this.paginationRecords.slice(0, 10);
+        this.inventoryList = this.paginationRecords.slice(0, this.recordsPerScreen);
         break;
       case ('RETURN'):
         this.paginationRecords = this.returnsList;
-        this.inventoryList = this.paginationRecords.slice(0, 10);
+        this.inventoryList = this.paginationRecords.slice(0, this.recordsPerScreen);
         break;
       case ('DESTROY'):
         this.paginationRecords = this.destroyList;
-        this.inventoryList = this.paginationRecords.slice(0, 10);
+        this.inventoryList = this.paginationRecords.slice(0, this.recordsPerScreen);
         break;
     }
   }
@@ -280,7 +288,35 @@ export class InventoryListComponent implements OnInit, AfterViewInit, OnDestroy 
     this.subscriptions$.complete();
   }
 
-  lockOrUnLockColumn(column) {
+  lockOrUnLockColumn(column: string) {
+    if (this.isColumnsInLockState) {
+      const isColumnAlreadyLocked = this.lockedColumns.find(col => col === column);
+      if (!isColumnAlreadyLocked) {
+        this.lockedColumns.push(column);
+      }
+    }
+  }
 
+  isColumnLocked(column: string): boolean {
+    return !!(this.lockedColumns.find(col => col === column));
+  }
+
+  sortColumn(column: any) {
+    const isNumber = column.value !== 'last_activity_date' || column.value !== 'client_container_number';
+    if (!column.sort) {
+      column.sort = true;
+      if (isNumber) {
+        this.inventoryList = this.inventoryList.sort((a, b) => Number(b[column.value]) - Number(a[column.value]));
+      } else {
+        this.inventoryList = this.inventoryList.sort((a, b) => a[column.value].localeCompare(b[column.value]));
+      }
+    } else {
+      column.sort = false;
+      if (isNumber) {
+        this.inventoryList = this.inventoryList.sort((a, b) => Number(a[column.value]) - Number(b[column.value]));
+      } else {
+        this.inventoryList = this.inventoryList.sort((a, b) => b[column.value].localeCompare(a[column.value]));
+      }
+    }
   }
 }
