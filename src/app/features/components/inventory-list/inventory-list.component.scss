@@ -84,3 +84,13 @@
  .clickable {
    cursor: pointer;
  }
+
+ .column-name {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   .col-icon {
+     margin-left: 1rem;
+   }
+ }

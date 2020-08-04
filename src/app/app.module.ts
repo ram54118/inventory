@@ -22,7 +22,7 @@ import { HeaderComponent } from './features/components/header/header.component';
 import { ClientProtocolFilterComponent } from './features/components/client-protocol-filter/client-protocol-filter.component';
 import { InventoryListComponent } from './features/components/inventory-list/inventory-list.component';
 import { CompositionComponent } from './features/components/composition/composition.component';
-
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,6 +41,7 @@ import { CompositionComponent } from './features/components/composition/composit
     HttpClientModule,
     FormsModule,
     MatSlideToggleModule,
+    MatIconModule,
     PaginationModule.forRoot(),
     NgSelectModule,
     ModalModule.forRoot(),

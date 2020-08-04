@@ -54,36 +54,19 @@
     <thead>
       <tr>
         <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
-        <th *ngFor="let column of columnsList" class="clickable"
-          [ngClass]="{'lock': isColumnsInLockState, 'column-locked': this.isColumnLocked(column.value)}"
-          (click)="sortColumn(column)">{{column.label}}</th>
-
-        <!-- <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
-        <th *ngFor="let column of columnsList">
-          {{column.label}}</th>
-
-        <th><input type="checkbox" [(ngModel)]="selectAll" (change)="selectOrUnSelectAll($event)" /></th>
-        <th *ngFor="let column of columnsList">
-          {{column.label}}</th> -->
+        <th *ngFor="let column of columnsList" class="clickable" (click)="sortColumn(column)">
+          <div class="column-name"><span class="col-name">{{column.label}}</span>
+            <mat-icon *ngIf="column.sort === false" aria-hidden="false" aria-label="Example home icon" class="col-icon">
+              keyboard_arrow_down</mat-icon>
+            <mat-icon *ngIf="column.sort === true" aria-hidden="false" aria-label="Example home icon" class="col-icon">
+              keyboard_arrow_up</mat-icon>
+          </div>
+        </th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let inventory of inventoryList">
         <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
-        <td [ngClass]="{'column-locked': this.isColumnLocked('box_code')}">
-          {{inventory.box_code}}</td>
-        <td [ngClass]="{'column-locked': this.isColumnLocked('last_activity_date')}">
-          {{inventory.last_activity_date}}</td>
-        <td [ngClass]="{'column-locked': this.isColumnLocked('storage_location')}">
-          {{inventory.storage_location}}</td>
-        <td [ngClass]="{'column-locked': this.isColumnLocked('container_number')}">{{inventory.container_number}}</td>
-        <td [ngClass]="{'column-locked': this.isColumnLocked('client_container_number')}">
-          {{inventory.client_container_number}}
-        </td>
-        <td [ngClass]="{'column-locked': this.isColumnLocked('quantity')}">{{inventory.quantity}}</td>
-        <td [ngClass]="{'column-locked': this.isColumnLocked('protocol_id')}">{{inventory.protocol_id}}</td>
-
-        <!-- <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
         <td>
           {{inventory.box_code}}</td>
         <td>
@@ -96,20 +79,6 @@
         </td>
         <td>{{inventory.quantity}}</td>
         <td>{{inventory.protocol_id}}</td>
-
-        <td><input type="checkbox" [(ngModel)]="inventory.isSelect" (change)="selectInventory(inventory)" /></td>
-        <td>
-          {{inventory.box_code}}</td>
-        <td>
-          {{inventory.last_activity_date}}</td>
-        <td>
-          {{inventory.storage_location}}</td>
-        <td>{{inventory.container_number}}</td>
-        <td>
-          {{inventory.client_container_number}}
-        </td>
-        <td>{{inventory.quantity}}</td>
-        <td>{{inventory.protocol_id}}</td> -->
       </tr>
 
     </tbody>
